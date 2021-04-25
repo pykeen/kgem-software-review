@@ -13,14 +13,10 @@ the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main
 
 {% if entry contains "docs" %}
 [![Docs](https://img.shields.io/badge/Docs-red?logo=gitbook)](https://github.com/{{ entry.docs }})
-{% else %}
-No Docs.
 {% endif %}
 
 { % if entry contains "ci" %}
-[![CI](https://img.shields.io/badge/CI-orange?logo={{ entry.ci.type }})](https://github.com/{{ entry.ci.link }})
-{% else %}
-No CI.
+[![CI](https://img.shields.io/badge/{{ entry.ci.type }}-CI-blue?logo={{ entry.ci.type }})](https://github.com/{{ entry.ci.link }})
 {% endif %}
 
 {% if entry contains "pypi" %}
@@ -31,4 +27,5 @@ $ pip install {{ entry.pypi }}
 {% else %}
 Can't install {{ entry.name }} directly from PyPI with `pip`. See their [installation docs]({{ entry.installation }}) instead.
 {% endif %}
+
 {% endfor %}

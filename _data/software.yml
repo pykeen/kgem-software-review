@@ -32,7 +32,7 @@
   github: stellargraph/stellargraph
   docs: https://stellargraph.readthedocs.io
   ci:
-    type: github
+    type: GitHub
     link: https://github.com/stellargraph/stellargraph/actions/workflows/ci.yml
   language: python
   pypi: stellargraph
@@ -42,7 +42,7 @@
   github: facebookresearch/PyTorch-BigGraph
   docs: https://torchbiggraph.readthedocs.io
   ci:
-    type: circleci
+    type: CircleCI
     link: https://app.circleci.com/pipelines/github/facebookresearch/PyTorch-BigGraph
   pypi: torchbiggraph
   installation: https://github.com/facebookresearch/PyTorch-BigGraph#installation
@@ -52,7 +52,7 @@
   homepage: https://dgl.ai
   docs: https://docs.dgl.ai
   ci:
-    type: jenkins
+    type: Jenkins
     link: https://ci.dgl.ai/job/DGL/job/master
   pypi: dgl
   installation: https://github.com/dmlc/dgl#installation
