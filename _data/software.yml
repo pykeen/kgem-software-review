@@ -19,6 +19,9 @@
   slack: https://join.slack.com/t/ampligraph/shared_invite/enQtNTc2NTI0MzUxMTM5LTRkODk0MjI2OWRlZjdjYmExY2Q3M2M3NGY0MGYyMmI4NWYyMWVhYTRjZDhkZjA1YTEyMzBkMGE4N2RmNTRiZDg
   installation: https://github.com/Accenture/AmpliGraph#installation
   pypi: ampligraph
+  ci:
+    type: CircleCI
+    link: https://app.circleci.com/pipelines/github/Accenture/AmpliGraph
 
 - name: Pykg2vec
   github: Sujit-O/pykg2vec
@@ -26,6 +29,9 @@
   license: MIT
   framework: PyTorch
   pypi: pykg2vec
+  ci:
+    type: CircleCI
+    link: https://app.circleci.com/pipelines/github/Sujit-O/pykg2vec
   installation: https://github.com/Sujit-O/pykg2vec#to-get-started
 
 - name: StellarGraph
