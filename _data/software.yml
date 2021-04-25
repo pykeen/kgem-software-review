@@ -58,7 +58,7 @@
   installation: https://github.com/dmlc/dgl#installation
 
 - name: Marius
-  github: https://github.com/marius-team/marius
+  github: marius-team/marius
   homepage: https://marius-project.org
   license: Apache-2.0
   framework: Custom
