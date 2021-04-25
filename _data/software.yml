@@ -4,6 +4,7 @@
   docs: https://pykeen.readthedocs.io
   language: python
   framework: PyTorch
+  pip: pykeen
 
 - name: GraphVite
   github: DeepGraphLearning/graphvite

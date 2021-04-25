@@ -11,4 +11,11 @@ the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main
 
 {% if entry contains "github" %}[![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github | replace: "-", ""}}-black?logo=github)](https://github.com/{{ entry.github }}){% endif %}
 {% if entry contains "docs" %}[docs]({{ entry.docs }}){% endif %}
+{% if entry contains "pip" %}
+```shell
+$ pip install {{ entry.pip }}
+```
+{% else %}
+Can't install directly with `pip`.
+{% endif %}
 {% endfor %}
