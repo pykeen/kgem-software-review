@@ -72,3 +72,7 @@
   ci: https://ci.dgl.ai/job/DGL/job/master
   pypi: dgl
   installation: https://github.com/dmlc/dgl#installation
+
+- name: LibKGE
+  github: uma-pi1/kge
+  installation: https://github.com/uma-pi1/kge#quick-start
