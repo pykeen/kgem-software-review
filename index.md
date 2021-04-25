@@ -12,13 +12,15 @@ the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main
 {% if entry contains "github" %}[![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github | replace: "-", ""}}-black?logo=github)](https://github.com/{{ entry.github }}){% endif %}
 
 {% if entry contains "docs" %}
-[![Docs](https://img.shields.io/badge/Docs-blue?logo=gitbook)]({{ entry.docs }})
+[![Docs](https://img.shields.io/badge/Docs-green?logo=gitbook)]({{ entry.docs }})
 {% else %}
 ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
 {% endif %}
 
 {% if entry contains "ci" %}
-{{ entry.ci }}
+[![CI](https://img.shields.io/badge/CI-{{ entry.ci.type }}-green?logo={{ entry.ci.type }})]({{ entry.ci.link }})
+{% else %}
+![CI](https://img.shields.io/badge/CI-missing-red?logo={{ entry.ci.type }})
 {% endif %}
 
 {% if entry contains "pypi" %}
