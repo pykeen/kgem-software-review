@@ -17,6 +17,10 @@ the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main
 ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
 {% endif %}
 
+{% if entry contains "ci" %}
+{{ entry.ci }}
+{% endif %}
+
 {% if entry contains "pypi" %}
 ```shell
 $ # {{ entry.name }} can be installed directly with:
