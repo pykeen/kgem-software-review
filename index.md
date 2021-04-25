@@ -7,6 +7,8 @@ GitHub editor or by forking the repository and sending a pull request. Content o
 the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main/LICENSE) license.
 
 {% for entry in site.data.software %}
-<strong><a href="{{ entry.homepage }}">{{ entry.name }}</a></strong>
+<strong><a href="{% if entry.homepage %}{{ entry.homepage }}{% else %}https://github.com/{{ entry.github }}{% endif %}">{{ entry.name }}</a></strong>
+
 {% if entry contains "github" %}[![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github | replace: "-", ""}}-black?logo=github)](https://github.com/{{ entry.github }}){% endif %}
+{% if entry contains "docs" %}[docs]({{ entry.docs }}){% endif %}
 {% endfor %}
