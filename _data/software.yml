@@ -1,12 +1,13 @@
 - name: PyKEEN
   github: pykeen/pykeen
   homepage: https://pykeen.github.io
+  docs: https://pykeen.readthedocs.io
   language: python
   framework: PyTorch
 
 - name: GraphVite
-  url: https://graphvite.io
   github: DeepGraphLearning/graphvite
+  homepage: https://graphvite.io
   language:
     - python
     - c++
@@ -32,7 +33,7 @@
 
 - name: Marius
   github: https://github.com/marius-team/marius
-  homepage: https://marius-project.org/
+  homepage: https://marius-project.org
   license: Apache-2.0
   framework: Custom
   language:
@@ -44,3 +45,14 @@
   docs: https://stellargraph.readthedocs.io
   ci: https://github.com/stellargraph/stellargraph/actions/workflows/ci.yml
   language: python
+
+- name: PyTorch-BigGraph
+  github: facebookresearch/PyTorch-BigGraph
+  docs: https://torchbiggraph.readthedocs.io
+  ci: https://app.circleci.com/pipelines/github/facebookresearch/PyTorch-BigGraph
+
+- name: Deep Graph Library
+  github: dmlc/dgl
+  homepage: https://dgl.ai
+  docs: https://docs.dgl.ai
+  ci: https://ci.dgl.ai/job/DGL/job/master
