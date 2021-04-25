@@ -13,6 +13,8 @@ the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main
 
 {% if entry contains "docs" %}
 [![Docs](https://img.shields.io/badge/Docs-blue?logo=gitbook)]({{ entry.docs }})
+{% else %}
+[Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
 {% endif %}
 
 {% if entry contains "pypi" %}
