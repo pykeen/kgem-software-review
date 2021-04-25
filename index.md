@@ -20,7 +20,7 @@ the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main
 {% if entry contains "ci" %}
 [![CI](https://img.shields.io/badge/CI-{{ entry.ci.type }}-green?logo={{ entry.ci.type }})]({{ entry.ci.link }})
 {% else %}
-![CI](https://img.shields.io/badge/CI-missing-red?logo={{ entry.ci.type }})
+![CI](https://img.shields.io/badge/CI-missing-red)
 {% endif %}
 
 {% if entry contains "pypi" %}
