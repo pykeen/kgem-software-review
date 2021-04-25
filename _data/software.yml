@@ -2,6 +2,7 @@
   github: pykeen/pykeen
   homepage: https://pykeen.github.io
   language: python
+  framework: PyTorch
 
 - name: GraphVite
   url: https://graphvite.io
@@ -12,14 +13,17 @@
 
 - name: AmpliGraph
   github: Accenture/AmpliGraph
+  homepage: https://github.com/Accenture/AmpliGraph
   docs: http://docs.ampligraph.org
   language: python
-  framework: tensorflow
+  framework: TensorFlow
+  slack: https://join.slack.com/t/ampligraph/shared_invite/enQtNTc2NTI0MzUxMTM5LTRkODk0MjI2OWRlZjdjYmExY2Q3M2M3NGY0MGYyMmI4NWYyMWVhYTRjZDhkZjA1YTEyMzBkMGE4N2RmNTRiZDg
 
 - name: OpenKE
   github: thunlp/OpenKE
   website: http://openke.thunlp.org
   citation: https://www.aclweb.org/anthology/D18-2024/
+  framework: TensorFlow
 
 - name: Pykg2vec
   github: Sujit-O/pykg2vec
@@ -28,6 +32,9 @@
   github: https://github.com/marius-team/marius
   homepage: https://marius-project.org/
   license: Apache-2.0
+  language:
+    - python
+    - c++
 
 - name: StellarGraph
   github: stellargraph/stellargraph
