@@ -7,6 +7,9 @@
   pypi: pykeen
   academic: true
   installation: https://github.com/pykeen/pykeen/#installation--
+  ci:
+    type: github
+    link: https://github.com/pykeen/pykeen/actions/workflows/tests.yml
 
 - name: AmpliGraph
   github: Accenture/AmpliGraph
@@ -28,7 +31,9 @@
 - name: StellarGraph
   github: stellargraph/stellargraph
   docs: https://stellargraph.readthedocs.io
-  ci: https://github.com/stellargraph/stellargraph/actions/workflows/ci.yml
+  ci:
+    type: github
+    link: https://github.com/stellargraph/stellargraph/actions/workflows/ci.yml
   language: python
   pypi: stellargraph
   installation: https://github.com/stellargraph/stellargraph#installation
@@ -36,7 +41,9 @@
 - name: PyTorch-BigGraph
   github: facebookresearch/PyTorch-BigGraph
   docs: https://torchbiggraph.readthedocs.io
-  ci: https://app.circleci.com/pipelines/github/facebookresearch/PyTorch-BigGraph
+  ci:
+    type: circleci
+    link: https://app.circleci.com/pipelines/github/facebookresearch/PyTorch-BigGraph
   pypi: torchbiggraph
   installation: https://github.com/facebookresearch/PyTorch-BigGraph#installation
 
@@ -44,7 +51,9 @@
   github: dmlc/dgl
   homepage: https://dgl.ai
   docs: https://docs.dgl.ai
-  ci: https://ci.dgl.ai/job/DGL/job/master
+  ci:
+    type: jenkins
+    link: https://ci.dgl.ai/job/DGL/job/master
   pypi: dgl
   installation: https://github.com/dmlc/dgl#installation
 
@@ -57,6 +66,10 @@
   language:
     - python
     - c++
+  academic: true
+  ci:
+    type: github
+    link: https://github.com/marius-team/marius/actions/workflows/build_and_test.yml
 
 - name: GraphVite
   github: DeepGraphLearning/graphvite

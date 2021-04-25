@@ -10,7 +10,8 @@ the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main
 <strong><a href="{% if entry.homepage %}{{ entry.homepage }}{% else %}https://github.com/{{ entry.github }}{% endif %}">{{ entry.name }}</a></strong>
 
 {% if entry contains "github" %}[![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github | replace: "-", ""}}-black?logo=github)](https://github.com/{{ entry.github }}){% endif %}
-{% if entry contains "docs" %}[docs]({{ entry.docs }}){% endif %}
+{% if entry contains "docs" %}[![Docs](https://img.shields.io/badge/Docs-red?logo=gitbook)](https://github.com/{{ entry.docs }}){% endif %}
+{% if entry contains "ci" %}[![CI](https://img.shields.io/badge/CI-orange?logo={{ entry.ci.type }})](https://github.com/{{ entry.ci.link }}){% endif %}
 {% if entry contains "pypi" %}
 ```shell
 $ # {{ entry.name }} can be installed directly with:
