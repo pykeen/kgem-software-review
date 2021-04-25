@@ -11,11 +11,12 @@ the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main
 
 {% if entry contains "github" %}[![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github | replace: "-", ""}}-black?logo=github)](https://github.com/{{ entry.github }}){% endif %}
 {% if entry contains "docs" %}[docs]({{ entry.docs }}){% endif %}
-{% if entry contains "pip" %}
+{% if entry contains "pypi" %}
 ```shell
-$ pip install {{ entry.pip }}
+$ # {{ entry.name }} can be installed directly with:
+$ pip install {{ entry.pypi }}
 ```
 {% else %}
-Can't install directly with `pip`.
+Can't install {{ entry.name }} directly with `pip`. See their [installation docs]({{ entry.installation }}) instead.
 {% endif %}
 {% endfor %}

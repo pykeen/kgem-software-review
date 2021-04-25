@@ -4,7 +4,9 @@
   docs: https://pykeen.readthedocs.io
   language: python
   framework: PyTorch
-  pip: pykeen
+  pypi: pykeen
+  academic: true
+  installation: https://github.com/pykeen/pykeen/#installation--
 
 - name: GraphVite
   github: DeepGraphLearning/graphvite
@@ -19,18 +21,23 @@
   language: python
   framework: TensorFlow
   slack: https://join.slack.com/t/ampligraph/shared_invite/enQtNTc2NTI0MzUxMTM5LTRkODk0MjI2OWRlZjdjYmExY2Q3M2M3NGY0MGYyMmI4NWYyMWVhYTRjZDhkZjA1YTEyMzBkMGE4N2RmNTRiZDg
+  installation: https://github.com/Accenture/AmpliGraph#installation
+  pypi: ampligraph
 
 - name: OpenKE
   github: thunlp/OpenKE
   homepage: http://openke.thunlp.org
   citation: https://www.aclweb.org/anthology/D18-2024/
   framework: TensorFlow
+  installation: https://github.com/thunlp/OpenKE#installation
 
 - name: Pykg2vec
   github: Sujit-O/pykg2vec
   docs: https://pykg2vec.readthedocs.io
   license: MIT
   framework: PyTorch
+  pypi: pykg2vec
+  installation: https://github.com/Sujit-O/pykg2vec#to-get-started
 
 - name: Marius
   github: https://github.com/marius-team/marius
@@ -46,14 +53,20 @@
   docs: https://stellargraph.readthedocs.io
   ci: https://github.com/stellargraph/stellargraph/actions/workflows/ci.yml
   language: python
+  pypi: stellargraph
+  installation: https://github.com/stellargraph/stellargraph#installation
 
 - name: PyTorch-BigGraph
   github: facebookresearch/PyTorch-BigGraph
   docs: https://torchbiggraph.readthedocs.io
   ci: https://app.circleci.com/pipelines/github/facebookresearch/PyTorch-BigGraph
+  pypi: torchbiggraph
+  installation: https://github.com/facebookresearch/PyTorch-BigGraph#installation
 
 - name: Deep Graph Library
   github: dmlc/dgl
   homepage: https://dgl.ai
   docs: https://docs.dgl.ai
   ci: https://ci.dgl.ai/job/DGL/job/master
+  pypi: dgl
+  installation: https://github.com/dmlc/dgl#installation
