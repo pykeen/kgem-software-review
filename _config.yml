@@ -1,0 +1,8 @@
+title: KGEM Software Review
+description: >
+  A review of KGEM software
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate

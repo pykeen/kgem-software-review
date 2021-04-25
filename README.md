@@ -1,1 +1,0 @@
-# kgem-software-review
