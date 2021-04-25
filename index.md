@@ -12,7 +12,7 @@ the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main
 {% if entry contains "github" %}[![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github | replace: "-", ""}}-black?logo=github)](https://github.com/{{ entry.github }}){% endif %}
 
 {% if entry contains "docs" %}
-[![Docs](https://img.shields.io/badge/Docs-green?logo=gitbook)]({{ entry.docs }})
+[![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)]({{ entry.docs }})
 {% else %}
 ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
 {% endif %}
@@ -24,6 +24,10 @@ the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main
 {% endif %}
 
 {% if entry contains "pypi" %}
+![PyPI - License](https://img.shields.io/pypi/l/{{ entry.pypi }})
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/{{ entry.pypi }})
+![PyPI - Software Version](https://img.shields.io/pypi/v/{{ entry.pypi }})
+
 ```shell
 $ # {{ entry.name }} can be installed directly with:
 $ pip install {{ entry.pypi }}
