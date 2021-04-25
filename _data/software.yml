@@ -8,14 +8,6 @@
   academic: true
   installation: https://github.com/pykeen/pykeen/#installation--
 
-- name: GraphVite
-  github: DeepGraphLearning/graphvite
-  homepage: https://graphvite.io
-  installation: https://github.com/DeepGraphLearning/graphvite#installation
-  language:
-    - python
-    - c++
-
 - name: AmpliGraph
   github: Accenture/AmpliGraph
   docs: https://docs.ampligraph.org
@@ -25,13 +17,6 @@
   installation: https://github.com/Accenture/AmpliGraph#installation
   pypi: ampligraph
 
-- name: OpenKE
-  github: thunlp/OpenKE
-  homepage: http://openke.thunlp.org
-  citation: https://www.aclweb.org/anthology/D18-2024/
-  framework: TensorFlow
-  installation: https://github.com/thunlp/OpenKE#installation
-
 - name: Pykg2vec
   github: Sujit-O/pykg2vec
   docs: https://pykg2vec.readthedocs.io
@@ -39,16 +24,6 @@
   framework: PyTorch
   pypi: pykg2vec
   installation: https://github.com/Sujit-O/pykg2vec#to-get-started
-
-- name: Marius
-  github: https://github.com/marius-team/marius
-  homepage: https://marius-project.org
-  license: Apache-2.0
-  framework: Custom
-  installation: https://github.com/marius-team/marius#installation-from-source-with-pip
-  language:
-    - python
-    - c++
 
 - name: StellarGraph
   github: stellargraph/stellargraph
@@ -73,6 +48,31 @@
   pypi: dgl
   installation: https://github.com/dmlc/dgl#installation
 
+- name: Marius
+  github: https://github.com/marius-team/marius
+  homepage: https://marius-project.org
+  license: Apache-2.0
+  framework: Custom
+  installation: https://github.com/marius-team/marius#installation-from-source-with-pip
+  language:
+    - python
+    - c++
+
+- name: GraphVite
+  github: DeepGraphLearning/graphvite
+  homepage: https://graphvite.io
+  installation: https://github.com/DeepGraphLearning/graphvite#installation
+  language:
+    - python
+    - c++
+
 - name: LibKGE
   github: uma-pi1/kge
   installation: https://github.com/uma-pi1/kge#quick-start
+
+- name: OpenKE
+  github: thunlp/OpenKE
+  homepage: http://openke.thunlp.org
+  citation: https://www.aclweb.org/anthology/D18-2024/
+  framework: TensorFlow
+  installation: https://github.com/thunlp/OpenKE#installation
