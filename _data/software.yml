@@ -11,6 +11,7 @@
 - name: GraphVite
   github: DeepGraphLearning/graphvite
   homepage: https://graphvite.io
+  installation: https://github.com/DeepGraphLearning/graphvite#installation
   language:
     - python
     - c++
@@ -44,6 +45,7 @@
   homepage: https://marius-project.org
   license: Apache-2.0
   framework: Custom
+  installation: https://github.com/marius-team/marius#installation-from-source-with-pip
   language:
     - python
     - c++

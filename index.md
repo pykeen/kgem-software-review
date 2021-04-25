@@ -17,6 +17,6 @@ $ # {{ entry.name }} can be installed directly with:
 $ pip install {{ entry.pypi }}
 ```
 {% else %}
-Can't install {{ entry.name }} directly with `pip`. See their [installation docs]({{ entry.installation }}) instead.
+Can't install {{ entry.name }} directly from PyPI with `pip`. See their [installation docs]({{ entry.installation }}) instead.
 {% endif %}
 {% endfor %}
