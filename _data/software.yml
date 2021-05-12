@@ -6,6 +6,8 @@
   framework: PyTorch
   pypi: pykeen
   academic: true
+  citation: https://jmlr.org/papers/v22/20-825.html
+  arxiv: 2007.14175
   installation: https://github.com/pykeen/pykeen/#installation--
   ci:
     type: github
@@ -29,6 +31,7 @@
   license: MIT
   framework: PyTorch
   pypi: pykg2vec
+  arxiv: 1906.04239
   ci:
     type: CircleCI
     link: https://app.circleci.com/pipelines/github/Sujit-O/pykg2vec
@@ -74,6 +77,7 @@
 - name: Marius
   github: marius-team/marius
   homepage: https://marius-project.org
+  arxiv: 2101.08358
   license: Apache-2.0
   framework: Custom
   installation: https://github.com/marius-team/marius#installation-from-source-with-pip
@@ -89,6 +93,7 @@
   github: DeepGraphLearning/graphvite
   homepage: https://graphvite.io
   installation: https://github.com/DeepGraphLearning/graphvite#installation
+  arxiv: 1903.00757
   language:
     - python
     - c++
@@ -96,6 +101,7 @@
 - name: LibKGE
   github: uma-pi1/kge
   installation: https://github.com/uma-pi1/kge#quick-start
+  citation: https://openreview.net/forum?id=BkxSmlBFvr
 
 - name: OpenKE
   github: thunlp/OpenKE
