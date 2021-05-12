@@ -63,6 +63,14 @@
   pypi: dgl
   installation: https://github.com/dmlc/dgl#installation
 
+- name: Paddle Graph Learning
+  abbreviation: PGL
+  github: PaddlePaddle/PGL
+  framework: Custom
+  installation: https://github.com/PaddlePaddle/PGL#installation
+  docs: https://pgl.readthedocs.io
+  pypi: pgl
+
 - name: Marius
   github: marius-team/marius
   homepage: https://marius-project.org
