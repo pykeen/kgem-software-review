@@ -1,14 +1,22 @@
 ---
 layout: home
 ---
-This page contains a list of software packages for knowledge graph embedding models (KGEM). You can contribute to this
-list by [filling out an issue](https://github.com/pykeen/kgem-software-review/issues/new?assignees=cthoyt&labels=enhancement&template=new-software-package.md&title=),
-[making an edit](https://github.com/pykeen/kgem-software-review/edit/main/_data/software.yml) through the web-based
-GitHub editor, or by forking the repository and sending a pull request. This site is generated from
-[https://github.com/pykeen/kgem-software-review/](https://github.com/pykeen/kgem-software-review/). Content on this site
+This page contains a list of software packages for knowledge graph embedding models (KGEM). It's generated with GitHub
+Pages from <a href="https://github.com/pykeen/kgem-software-review"><img alt="GitHub logo"
+src="/img/github-icon.svg" width="16" height="16" /> pykeen/kgem-software-review</a> Content on this site
 is available under the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main/LICENSE)
-license. Download the full
-data [here](https://raw.githubusercontent.com/pykeen/kgem-software-review/main/_data/software.yml).
+license. Download the full data
+[here](https://raw.githubusercontent.com/pykeen/kgem-software-review/main/_data/software.yml).
+
+## Contributing
+
+You can contribute to this list in one of the following ways:
+
+1. [Fill out an issue](https://github.com/pykeen/kgem-software-review/issues/new?assignees=cthoyt&labels=enhancement&template=new-software-package.md&title=) on the GitHub issue tracker.
+2. [Make an edit](https://github.com/pykeen/kgem-software-review/edit/main/_data/software.yml) through the web-based GitHub editor which automatically forks the repository and generates a pull request.
+3. [Fork the repository](https://github.com/pykeen/kgem-software-review/) from GitHub and send a pull request.
+
+## The List
 
 {% for entry in site.data.software %}
 <strong><a href="{% if entry.homepage %}{{ entry.homepage }}{% else %}https://github.com/{{ entry.github }}{% endif %}">{{ entry.name }}</a></strong>
