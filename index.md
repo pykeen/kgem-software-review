@@ -2,11 +2,13 @@
 layout: home
 ---
 This page contains a list of software packages for knowledge graph embedding models (KGEM). You can contribute to this
-list by [adding a package](https://github.com/pykeen/kgem-software-review/edit/main/_data/software.yml) through the
-GitHub editor or by forking the repository and sending a pull request. This site is generated from
-[https://github.com/pykeen/kgem-software-review/](https://github.com/pykeen/kgem-software-review/). Content on this
-site is available under the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main/LICENSE)
-license.
+list by [filling out an issue](https://github.com/pykeen/kgem-software-review/issues/new?assignees=cthoyt&labels=enhancement&template=new-software-package.md&title=),
+[making an edit](https://github.com/pykeen/kgem-software-review/edit/main/_data/software.yml) through the web-based
+GitHub editor, or by forking the repository and sending a pull request. This site is generated from
+[https://github.com/pykeen/kgem-software-review/](https://github.com/pykeen/kgem-software-review/). Content on this site
+is available under the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main/LICENSE)
+license. Download the full
+data [here](https://raw.githubusercontent.com/pykeen/kgem-software-review/main/_data/software.yml).
 
 {% for entry in site.data.software %}
 <strong><a href="{% if entry.homepage %}{{ entry.homepage }}{% else %}https://github.com/{{ entry.github }}{% endif %}">{{ entry.name }}</a></strong>
