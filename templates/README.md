@@ -10,36 +10,32 @@ focus on knowledge graph embedding models (KGEMs).
 {% endfor %}
 
 {% for entry in kgem_software_data %}
-## <a href="{% if entry.homepage %}{{ entry.homepage }}{% else %}https://github.com/{{ entry.github }}{% endif %}">{{ entry.name }}</a>
+## <a href="{% if entry.homepage %}{{ entry.homepage }}{% else %}https://github.com/{{ entry.github }}{% endif %}">{{ entry.name }}</a> [![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github.replace("-", "") }}-black?logo=github)](https://github.com/{{ entry.github }}) {% if entry.docs  %}[![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)]({{ entry.docs }}){% else %}![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook){% endif %} {% if entry.ci %}[![CI](https://img.shields.io/badge/CI-{{ entry.ci.type }}-green?logo={{ entry.ci.type }})]({{ entry.ci.link }}){% else %}![CI](https://img.shields.io/badge/CI-missing-red){% endif %}
 
 {% if entry.citation %}
-Cite:
+Citation:
 
 > [{{ entry.citation.title }}]({{ entry.citation.url }})
 > <br />{{ entry.citation.authors }}
 > <br />*{{ entry.citation.venue }}*, {{ entry.citation.year }}
+{% else %}
+{{ entry.name }} does not have an associated scholarly publication.
 {% endif %}
 
-[![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github.replace("-", "") }}-black?logo=github)](https://github.com/{{ entry.github }})
-{% if entry.docs  %}
-[![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)]({{ entry.docs }})
-{% else %}
-![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
-{% endif %}
-{% if entry.ci  %}
-[![CI](https://img.shields.io/badge/CI-{{ entry.ci.type }}-green?logo={{ entry.ci.type }})]({{ entry.ci.link }})
-{% else %}
-![CI](https://img.shields.io/badge/CI-missing-red)
-{% endif %}
 {% if entry.pypi %}
-![PyPI - License](https://img.shields.io/pypi/l/{{ entry.pypi }})
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/{{ entry.pypi }})
-![PyPI - Software Version](https://img.shields.io/pypi/v/{{ entry.pypi }})
+Installation:
 
 ```shell
 $ # {{ entry.name }} can be installed directly with:
 $ pip install {{ entry.pypi }}
 ```
+
+Extras:
+
+![PyPI - License](https://img.shields.io/pypi/l/{{ entry.pypi }})
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/{{ entry.pypi }})
+![PyPI - Software Version](https://img.shields.io/pypi/v/{{ entry.pypi }})
+
 {% else %}
 
 Can't install {{ entry.name }} directly from PyPI with `pip`. See their [installation docs]({{ entry.installation }}) instead.

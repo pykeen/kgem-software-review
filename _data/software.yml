@@ -65,7 +65,7 @@
   citation:
       year: 2019
       url: https://mlsys.org/Conferences/2019/doc/2019/71.pdf
-      venue: Proceedings of the 2 nd SysML Conference
+      venue: Proceedings of the 2nd SysML Conference
       authors: Adam Lerer, Ledell Wu, Jiajun Shen, Timothee Lacroix, Luca Wehrstedt, Abhijit Bose, and Alex Peysakhovich
       title: "PyTorch-BigGraph: A Large-scale Graph Embedding Framework"
   docs: https://torchbiggraph.readthedocs.io
