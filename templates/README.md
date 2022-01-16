@@ -12,6 +12,11 @@ focus on knowledge graph embedding models (KGEMs).
 {% for entry in kgem_software_data %}
 <strong><a href="{% if entry.homepage %}{{ entry.homepage }}{% else %}https://github.com/{{ entry.github }}{% endif %}">{{ entry.name }}</a></strong>
 
+{% if entry.citation %}
+
+> [**{{ entry.citation.title }}**]({{ entry.citation.url }}) ({{ entry.citation.author }} *et al.*, {{ entry.citation.year }})
+{% endif %}
+
 [![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github.replace("-", "") }}-black?logo=github)](https://github.com/{{ entry.github }})
 {% if entry.docs  %}
 [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)]({{ entry.docs }})
@@ -35,11 +40,6 @@ $ pip install {{ entry.pypi }}
 {% else %}
 
 Can't install {{ entry.name }} directly from PyPI with `pip`. See their [installation docs]({{ entry.installation }}) instead.
-
-{% endif %}
-{% if entry.citation %}
-
-[**{{ entry.citation.title }}**]({{ entry.citation.url }}) ({{ entry.citation.author }} *et al.*, {{ entry.citation.year }})
 
 {% endif %}
 {% endfor %}
