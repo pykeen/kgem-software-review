@@ -3,13 +3,9 @@
 This list contains awesome code for graph machine learning, with a big
 focus on knowledge graph embedding models (KGEMs).
 
-## License
-
 Content on this site is available under the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main/LICENSE)
 license. The full list can be downloaded in YAML
 [here](https://raw.githubusercontent.com/pykeen/kgem-software-review/main/_data/software.yml).
-
-## Contributing
 
 You can contribute to this list in one of the following ways:
 
@@ -119,22 +115,26 @@ $ pip install pgl
 [![GitHub](https://img.shields.io/badge/GitHub-mariusteam/marius-black?logo=github)](https://github.com/marius-team/marius)
 ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)]
 [![CI](https://img.shields.io/badge/CI-github-green?logo=github)](https://github.com/marius-team/marius/actions/workflows/build_and_test.yml)
+
 Can't install Marius directly from PyPI with `pip`. See their [installation docs](https://github.com/marius-team/marius#installation-from-source-with-pip) instead.
 <strong><a href="https://graphvite.io">GraphVite</a></strong>
 
 [![GitHub](https://img.shields.io/badge/GitHub-DeepGraphLearning/graphvite-black?logo=github)](https://github.com/DeepGraphLearning/graphvite)
 ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)]
 [![CI](https://img.shields.io/badge/CI-missing-red)]()
+
 Can't install GraphVite directly from PyPI with `pip`. See their [installation docs](https://github.com/DeepGraphLearning/graphvite#installation) instead.
 <strong><a href="https://github.com/uma-pi1/kge">LibKGE</a></strong>
 
 [![GitHub](https://img.shields.io/badge/GitHub-umapi1/kge-black?logo=github)](https://github.com/uma-pi1/kge)
 ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)]
 [![CI](https://img.shields.io/badge/CI-missing-red)]()
+
 Can't install LibKGE directly from PyPI with `pip`. See their [installation docs](https://github.com/uma-pi1/kge#quick-start) instead.
 <strong><a href="http://openke.thunlp.org">OpenKE</a></strong>
 
 [![GitHub](https://img.shields.io/badge/GitHub-thunlp/OpenKE-black?logo=github)](https://github.com/thunlp/OpenKE)
 ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)]
 [![CI](https://img.shields.io/badge/CI-missing-red)]()
+
 Can't install OpenKE directly from PyPI with `pip`. See their [installation docs](https://github.com/thunlp/OpenKE#installation) instead.
