@@ -15,7 +15,7 @@ focus on knowledge graph embedding models (KGEMs).
 {% if entry.citation %}
 
 > [{{ entry.citation.title }}]({{ entry.citation.url }})
-> {{ entry.citation.authors }} ({{ entry.citation.year }})
+> <br />{{ entry.citation.authors }} ({{ entry.citation.year }})
 {% endif %}
 
 [![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github.replace("-", "") }}-black?logo=github)](https://github.com/{{ entry.github }})
