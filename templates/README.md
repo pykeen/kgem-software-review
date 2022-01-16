@@ -16,12 +16,12 @@ focus on knowledge graph embedding models (KGEMs).
 {% if entry.docs  %}
 [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)]({{ entry.docs }})
 {% else %}
-![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)]
+![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
 {% endif %}
 {% if entry.ci  %}
 [![CI](https://img.shields.io/badge/CI-{{ entry.ci.type }}-green?logo={{ entry.ci.type }})]({{ entry.ci.link }})
 {% else %}
-[![CI](https://img.shields.io/badge/CI-missing-red)]()
+![CI](https://img.shields.io/badge/CI-missing-red)
 {% endif %}
 {% if entry.pypi %}
 ![PyPI - License](https://img.shields.io/pypi/l/{{ entry.pypi }})
@@ -35,6 +35,7 @@ $ pip install {{ entry.pypi }}
 {% else %}
 
 Can't install {{ entry.name }} directly from PyPI with `pip`. See their [installation docs]({{ entry.installation }}) instead.
+
 {% endif %}
 {% endfor %}
 

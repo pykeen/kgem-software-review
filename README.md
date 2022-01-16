@@ -91,7 +91,7 @@ $ pip install dgl
 
 [![GitHub](https://img.shields.io/badge/GitHub-PaddlePaddle/PGL-black?logo=github)](https://github.com/PaddlePaddle/PGL)
 [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://pgl.readthedocs.io)
-[![CI](https://img.shields.io/badge/CI-missing-red)]()
+![CI](https://img.shields.io/badge/CI-missing-red)
 ![PyPI - License](https://img.shields.io/pypi/l/pgl)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pgl)
 ![PyPI - Software Version](https://img.shields.io/pypi/v/pgl)
@@ -103,31 +103,35 @@ $ pip install pgl
 <strong><a href="https://marius-project.org">Marius</a></strong>
 
 [![GitHub](https://img.shields.io/badge/GitHub-mariusteam/marius-black?logo=github)](https://github.com/marius-team/marius)
-![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)]
+![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
 [![CI](https://img.shields.io/badge/CI-github-green?logo=github)](https://github.com/marius-team/marius/actions/workflows/build_and_test.yml)
 
 Can't install Marius directly from PyPI with `pip`. See their [installation docs](https://github.com/marius-team/marius#installation-from-source-with-pip) instead.
+
 <strong><a href="https://graphvite.io">GraphVite</a></strong>
 
 [![GitHub](https://img.shields.io/badge/GitHub-DeepGraphLearning/graphvite-black?logo=github)](https://github.com/DeepGraphLearning/graphvite)
-![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)]
-[![CI](https://img.shields.io/badge/CI-missing-red)]()
+![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
+![CI](https://img.shields.io/badge/CI-missing-red)
 
 Can't install GraphVite directly from PyPI with `pip`. See their [installation docs](https://github.com/DeepGraphLearning/graphvite#installation) instead.
+
 <strong><a href="https://github.com/uma-pi1/kge">LibKGE</a></strong>
 
 [![GitHub](https://img.shields.io/badge/GitHub-umapi1/kge-black?logo=github)](https://github.com/uma-pi1/kge)
-![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)]
-[![CI](https://img.shields.io/badge/CI-missing-red)]()
+![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
+![CI](https://img.shields.io/badge/CI-missing-red)
 
 Can't install LibKGE directly from PyPI with `pip`. See their [installation docs](https://github.com/uma-pi1/kge#quick-start) instead.
+
 <strong><a href="http://openke.thunlp.org">OpenKE</a></strong>
 
 [![GitHub](https://img.shields.io/badge/GitHub-thunlp/OpenKE-black?logo=github)](https://github.com/thunlp/OpenKE)
-![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)]
-[![CI](https://img.shields.io/badge/CI-missing-red)]()
+![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
+![CI](https://img.shields.io/badge/CI-missing-red)
 
 Can't install OpenKE directly from PyPI with `pip`. See their [installation docs](https://github.com/thunlp/OpenKE#installation) instead.
+
 
 ## Footnotes
 
