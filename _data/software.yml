@@ -9,6 +9,7 @@
   citation:
     title: "PyKEEN 1.0: A Python Library for Training and Evaluating Knowledge Graph Embeddings"
     year: 2021
+    venue: JMLR
     authors: Mehdi Ali, Max Berrendorf, Charles Tapley Hoyt, Laurent Vermue, Sahand Sharifzadeh, Volker Tresp, and Jens Lehmann
     url: https://jmlr.org/papers/v22/20-825.html
   arxiv: 2007.14175
@@ -40,6 +41,7 @@
   citation:
     authors: Shih-Yuan Yu, Sujit Rokka Chhetri, Arquimedes Canedo, Palash Goyal, and Mohammad Abdullah Al Faruque
     year: 2021
+    venue: JMLR
     title: "Pykg2vec: A Python Library for Knowledge Graph Embedding"
     url: https://jmlr.org/papers/v22/19-433.html
   ci:
@@ -63,6 +65,7 @@
   citation:
       year: 2019
       url: https://mlsys.org/Conferences/2019/doc/2019/71.pdf
+      venue: Proceedings of the 2 nd SysML Conference
       authors: Adam Lerer, Ledell Wu, Jiajun Shen, Timothee Lacroix, Luca Wehrstedt, Abhijit Bose, and Alex Peysakhovich
       title: "PyTorch-BigGraph: A Large-scale Graph Embedding Framework"
   docs: https://torchbiggraph.readthedocs.io
@@ -85,6 +88,7 @@
   citation:
     title: "Deep Graph Library: A Graph-Centric, Highly-Performant Package for Graph Neural Networks"
     url: https://arxiv.org/abs/1909.01315
+    venue: arXiv
     authors: Minjie Wang, Da Zheng, Zihao Ye, Quan Gan, Mufei Li, Xiang Song, Jinjing Zhou, Chao Ma, Lingfan Yu, Yu Gai, Tianjun Xiao, Tong He, George Karypis, Jinyang Li, and Zheng Zhang
     year: 2020
 
@@ -116,6 +120,7 @@
     year: 2021
     authors: Jason Mohoney, Roger Waleffe, Henry Xu, Theodoros Rekatsinas, and Shivaram Venkataraman
     url: https://www.usenix.org/conference/osdi21/presentation/mohoney
+    venue: OSDI
 
 - name: GraphVite
   github: DeepGraphLearning/graphvite
@@ -130,6 +135,7 @@
     authors: Zhaocheng Zhu, Shizhen Xu, Meng Qu, and Jian Tang
     year: 2019
     title: "GraphVite: A High-Performance CPU-GPU Hybrid System for Node Embedding"
+    venue: arXiv
 
 - name: LibKGE
   github: uma-pi1/kge
@@ -139,6 +145,7 @@
     title: "LibKGE - A knowledge graph embedding library for reproducible research"
     authors: Samuel Broscheit, Daniel Ruffinelli, Adrian Kochsiek, Patrick Betz, and Rainer Gemulla
     url: https://www.aclweb.org/anthology/2020.emnlp-demos.22
+    venue: EMNLP
 
 
 - name: OpenKE
@@ -151,3 +158,4 @@
     year: 2018
     url: https://www.aclweb.org/anthology/D18-2024/
     title: "OpenKE: An Open Toolkit for Knowledge Embedding"
+    venue: EMNLP

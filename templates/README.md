@@ -13,9 +13,11 @@ focus on knowledge graph embedding models (KGEMs).
 ## <a href="{% if entry.homepage %}{{ entry.homepage }}{% else %}https://github.com/{{ entry.github }}{% endif %}">{{ entry.name }}</a>
 
 {% if entry.citation %}
+Cite:
 
 > [{{ entry.citation.title }}]({{ entry.citation.url }})
-> <br />{{ entry.citation.authors }} ({{ entry.citation.year }})
+> <br />{{ entry.citation.authors }}
+> <br />*{{ entry.citation.venue }}*, {{ entry.citation.year }}
 {% endif %}
 
 [![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github.replace("-", "") }}-black?logo=github)](https://github.com/{{ entry.github }})
