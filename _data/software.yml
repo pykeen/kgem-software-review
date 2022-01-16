@@ -9,7 +9,7 @@
   citation:
     title: "PyKEEN 1.0: A Python Library for Training and Evaluating Knowledge Graph Embeddings"
     year: 2021
-    author: Ali
+    authors: Mehdi Ali, Max Berrendorf, Charles Tapley Hoyt, Laurent Vermue, Sahand Sharifzadeh, Volker Tresp, and Jens Lehmann
     url: https://jmlr.org/papers/v22/20-825.html
   arxiv: 2007.14175
   installation: https://github.com/pykeen/pykeen/#installation--
@@ -38,7 +38,7 @@
   pypi: pykg2vec
   arxiv: 1906.04239
   citation:
-    author: Yu
+    authors: Shih-Yuan Yu, Sujit Rokka Chhetri, Arquimedes Canedo, Palash Goyal, and Mohammad Abdullah Al Faruque
     year: 2021
     title: "Pykg2vec: A Python Library for Knowledge Graph Embedding"
     url: https://jmlr.org/papers/v22/19-433.html
@@ -63,7 +63,7 @@
   citation:
       year: 2019
       url: https://mlsys.org/Conferences/2019/doc/2019/71.pdf
-      author: Lerer
+      authors: Adam Lerer, Ledell Wu, Jiajun Shen, Timothee Lacroix, Luca Wehrstedt, Abhijit Bose, and Alex Peysakhovich
       title: "PyTorch-BigGraph: A Large-scale Graph Embedding Framework"
   docs: https://torchbiggraph.readthedocs.io
   ci:
@@ -85,7 +85,7 @@
   citation:
     title: "Deep Graph Library: A Graph-Centric, Highly-Performant Package for Graph Neural Networks"
     url: https://arxiv.org/abs/1909.01315
-    author: Wang
+    authors: Minjie Wang, Da Zheng, Zihao Ye, Quan Gan, Mufei Li, Xiang Song, Jinjing Zhou, Chao Ma, Lingfan Yu, Yu Gai, Tianjun Xiao, Tong He, George Karypis, Jinyang Li, and Zheng Zhang
     year: 2020
 
 - name: Paddle Graph Learning
@@ -114,7 +114,7 @@
   citation:
     title: "Marius: Learning Massive Graph Embeddings on a Single Machine"
     year: 2021
-    author: Mahoney
+    authors: Jason Mohoney, Roger Waleffe, Henry Xu, Theodoros Rekatsinas, and Shivaram Venkataraman
     url: https://www.usenix.org/conference/osdi21/presentation/mohoney
 
 - name: GraphVite
@@ -127,7 +127,7 @@
     - c++
   citation:
     url: https://arxiv.org/abs/1903.00757
-    author: Zhu
+    authors: Zhaocheng Zhu, Shizhen Xu, Meng Qu, and Jian Tang
     year: 2019
     title: "GraphVite: A High-Performance CPU-GPU Hybrid System for Node Embedding"
 
@@ -137,7 +137,7 @@
   citation:
     year: 2020
     title: "LibKGE - A knowledge graph embedding library for reproducible research"
-    author: Broscheit
+    authors: Samuel Broscheit, Daniel Ruffinelli, Adrian Kochsiek, Patrick Betz, and Rainer Gemulla
     url: https://www.aclweb.org/anthology/2020.emnlp-demos.22
 
 
@@ -147,7 +147,7 @@
   framework: TensorFlow
   installation: https://github.com/thunlp/OpenKE#installation
   citation:
-    author: Han
+    authors: Xu Han, Shulin Cao, Xin Lv, Yankai Lin, Zhiyuan Liu, Maosong Sun, and Juanzi Li
     year: 2018
     url: https://www.aclweb.org/anthology/D18-2024/
     title: "OpenKE: An Open Toolkit for Knowledge Embedding"
