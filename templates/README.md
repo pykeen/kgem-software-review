@@ -3,16 +3,6 @@
 This list contains awesome code for graph machine learning, with a big
 focus on knowledge graph embedding models (KGEMs).
 
-Content on this site is available under the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main/LICENSE)
-license. The full list can be downloaded in YAML
-[here](https://raw.githubusercontent.com/pykeen/kgem-software-review/main/_data/software.yml).
-
-You can contribute to this list in one of the following ways:
-
-1. [Fill out an issue](https://github.com/pykeen/kgem-software-review/issues/new?assignees=cthoyt&labels=enhancement&template=new-software-package.md&title=) on the GitHub issue tracker.
-2. [Make an edit](https://github.com/pykeen/kgem-software-review/edit/main/_data/software.yml) through the web-based GitHub editor which automatically forks the repository and generates a pull request.
-3. [Fork the repository](https://github.com/pykeen/kgem-software-review/) from GitHub and send a pull request.
-
 ## Contents
 
 1. [Knowledge Graph Embedding Models](#knowledge-graph-embedding-models)
@@ -47,3 +37,8 @@ $ pip install {{ entry.pypi }}
 Can't install {{ entry.name }} directly from PyPI with `pip`. See their [installation docs]({{ entry.installation }}) instead.
 {% endif %}
 {% endfor %}
+
+## Footnotes
+
+The full list can be downloaded in YAML
+[here](https://raw.githubusercontent.com/pykeen/kgem-software-review/main/_data/software.yml).
