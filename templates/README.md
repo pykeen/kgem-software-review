@@ -1,8 +1,12 @@
-This page contains a list of software packages for knowledge graph embedding models (KGEMs). It's generated with GitHub
-Pages from <a href="https://github.com/pykeen/kgem-software-review"><img alt="GitHub logo"
-src="img/github-icon.svg" width="16" height="16" /> pykeen/kgem-software-review</a>. Content on this site
-is available under the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main/LICENSE)
-license. Download the full data
+# Awesome Graph Machine Learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+This list contains awesome code for graph machine learning, with a big
+focus on knowledge graph embedding models (KGEMs).
+
+## License
+
+Content on this site is available under the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main/LICENSE)
+license. The full list can be downloaded in YAML
 [here](https://raw.githubusercontent.com/pykeen/kgem-software-review/main/_data/software.yml).
 
 ## Contributing
@@ -13,7 +17,11 @@ You can contribute to this list in one of the following ways:
 2. [Make an edit](https://github.com/pykeen/kgem-software-review/edit/main/_data/software.yml) through the web-based GitHub editor which automatically forks the repository and generates a pull request.
 3. [Fork the repository](https://github.com/pykeen/kgem-software-review/) from GitHub and send a pull request.
 
-## The List
+## Contents
+
+1. [Knowledge Graph Embedding Models](#knowledge-graph-embedding-models)
+
+## Knowledge Graph Embedding Models
 
 {% for entry in data %}
 <strong><a href="{% if entry.homepage %}{{ entry.homepage }}{% else %}https://github.com/{{ entry.github }}{% endif %}">{{ entry.name }}</a></strong>

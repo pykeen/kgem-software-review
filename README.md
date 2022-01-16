@@ -1,8 +1,12 @@
-This page contains a list of software packages for knowledge graph embedding models (KGEMs). It's generated with GitHub
-Pages from <a href="https://github.com/pykeen/kgem-software-review"><img alt="GitHub logo"
-src="img/github-icon.svg" width="16" height="16" /> pykeen/kgem-software-review</a>. Content on this site
-is available under the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main/LICENSE)
-license. Download the full data
+# Awesome Graph Machine Learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+This list contains awesome code for graph machine learning, with a big
+focus on knowledge graph embedding models (KGEMs).
+
+## License
+
+Content on this site is available under the [CC0 1.0 Universal](https://github.com/pykeen/kgem-software-review/blob/main/LICENSE)
+license. The full list can be downloaded in YAML
 [here](https://raw.githubusercontent.com/pykeen/kgem-software-review/main/_data/software.yml).
 
 ## Contributing
@@ -13,7 +17,11 @@ You can contribute to this list in one of the following ways:
 2. [Make an edit](https://github.com/pykeen/kgem-software-review/edit/main/_data/software.yml) through the web-based GitHub editor which automatically forks the repository and generates a pull request.
 3. [Fork the repository](https://github.com/pykeen/kgem-software-review/) from GitHub and send a pull request.
 
-## The List
+## Contents
+
+1. [Knowledge Graph Embedding Models](#knowledge-graph-embedding-models)
+
+## Knowledge Graph Embedding Models
 
 <strong><a href="https://pykeen.github.io">PyKEEN</a></strong>
 
@@ -109,24 +117,24 @@ $ pip install pgl
 <strong><a href="https://marius-project.org">Marius</a></strong>
 
 [![GitHub](https://img.shields.io/badge/GitHub-mariusteam/marius-black?logo=github)](https://github.com/marius-team/marius)
-[![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)]()
+![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)]
 [![CI](https://img.shields.io/badge/CI-github-green?logo=github)](https://github.com/marius-team/marius/actions/workflows/build_and_test.yml)
 Can't install Marius directly from PyPI with `pip`. See their [installation docs](https://github.com/marius-team/marius#installation-from-source-with-pip) instead.
 <strong><a href="https://graphvite.io">GraphVite</a></strong>
 
 [![GitHub](https://img.shields.io/badge/GitHub-DeepGraphLearning/graphvite-black?logo=github)](https://github.com/DeepGraphLearning/graphvite)
-[![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)]()
+![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)]
 [![CI](https://img.shields.io/badge/CI-missing-red)]()
 Can't install GraphVite directly from PyPI with `pip`. See their [installation docs](https://github.com/DeepGraphLearning/graphvite#installation) instead.
 <strong><a href="https://github.com/uma-pi1/kge">LibKGE</a></strong>
 
 [![GitHub](https://img.shields.io/badge/GitHub-umapi1/kge-black?logo=github)](https://github.com/uma-pi1/kge)
-[![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)]()
+![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)]
 [![CI](https://img.shields.io/badge/CI-missing-red)]()
 Can't install LibKGE directly from PyPI with `pip`. See their [installation docs](https://github.com/uma-pi1/kge#quick-start) instead.
 <strong><a href="http://openke.thunlp.org">OpenKE</a></strong>
 
 [![GitHub](https://img.shields.io/badge/GitHub-thunlp/OpenKE-black?logo=github)](https://github.com/thunlp/OpenKE)
-[![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)]()
+![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)]
 [![CI](https://img.shields.io/badge/CI-missing-red)]()
 Can't install OpenKE directly from PyPI with `pip`. See their [installation docs](https://github.com/thunlp/OpenKE#installation) instead.
