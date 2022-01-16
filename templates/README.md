@@ -5,16 +5,17 @@ focus on knowledge graph embedding models (KGEMs).
 
 ## Contents
 
-1. [Knowledge Graph Embedding Models](#knowledge-graph-embedding-models)
-
-## Knowledge Graph Embedding Models
+{% for entry in kgem_software_data %}
+1. [{{ entry.name }}](#{{ entry.name.lower().replace(" ", "-") }})
+{% endfor %}
 
 {% for entry in kgem_software_data %}
-<strong><a href="{% if entry.homepage %}{{ entry.homepage }}{% else %}https://github.com/{{ entry.github }}{% endif %}">{{ entry.name }}</a></strong>
+## <a href="{% if entry.homepage %}{{ entry.homepage }}{% else %}https://github.com/{{ entry.github }}{% endif %}">{{ entry.name }}</a>
 
 {% if entry.citation %}
 
-> [**{{ entry.citation.title }}**]({{ entry.citation.url }}) ({{ entry.citation.author }} *et al.*, {{ entry.citation.year }})
+> [{{ entry.citation.title }}]({{ entry.citation.url }})
+> {{ entry.citation.author }} *et al.*, {{ entry.citation.year }}
 {% endif %}
 
 [![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github.replace("-", "") }}-black?logo=github)](https://github.com/{{ entry.github }})

@@ -5,14 +5,23 @@ focus on knowledge graph embedding models (KGEMs).
 
 ## Contents
 
-1. [Knowledge Graph Embedding Models](#knowledge-graph-embedding-models)
+1. [PyKEEN](#pykeen)
+1. [AmpliGraph](#ampligraph)
+1. [Pykg2vec](#pykg2vec)
+1. [StellarGraph](#stellargraph)
+1. [PyTorch-BigGraph](#pytorch-biggraph)
+1. [Deep Graph Library](#deep-graph-library)
+1. [Paddle Graph Learning](#paddle-graph-learning)
+1. [Marius](#marius)
+1. [GraphVite](#graphvite)
+1. [LibKGE](#libkge)
+1. [OpenKE](#openke)
 
-## Knowledge Graph Embedding Models
-
-<strong><a href="https://pykeen.github.io">PyKEEN</a></strong>
+## <a href="https://pykeen.github.io">PyKEEN</a>
 
 
-> [**PyKEEN 1.0: A Python Library for Training and Evaluating Knowledge Graph Embeddings**](https://jmlr.org/papers/v22/20-825.html) (Ali *et al.*, 2021)
+> [PyKEEN 1.0: A Python Library for Training and Evaluating Knowledge Graph Embeddings](https://jmlr.org/papers/v22/20-825.html)
+> Ali *et al.*, 2021
 
 [![GitHub](https://img.shields.io/badge/GitHub-pykeen/pykeen-black?logo=github)](https://github.com/pykeen/pykeen)
 [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://pykeen.readthedocs.io)
@@ -25,7 +34,7 @@ focus on knowledge graph embedding models (KGEMs).
 $ # PyKEEN can be installed directly with:
 $ pip install pykeen
 ```
-<strong><a href="https://github.com/Accenture/AmpliGraph">AmpliGraph</a></strong>
+## <a href="https://github.com/Accenture/AmpliGraph">AmpliGraph</a>
 
 
 [![GitHub](https://img.shields.io/badge/GitHub-Accenture/AmpliGraph-black?logo=github)](https://github.com/Accenture/AmpliGraph)
@@ -39,10 +48,11 @@ $ pip install pykeen
 $ # AmpliGraph can be installed directly with:
 $ pip install ampligraph
 ```
-<strong><a href="https://github.com/Sujit-O/pykg2vec">Pykg2vec</a></strong>
+## <a href="https://github.com/Sujit-O/pykg2vec">Pykg2vec</a>
 
 
-> [**Pykg2vec: A Python Library for Knowledge Graph Embedding**](https://jmlr.org/papers/v22/19-433.html) (Yu *et al.*, 2021)
+> [Pykg2vec: A Python Library for Knowledge Graph Embedding](https://jmlr.org/papers/v22/19-433.html)
+> Yu *et al.*, 2021
 
 [![GitHub](https://img.shields.io/badge/GitHub-SujitO/pykg2vec-black?logo=github)](https://github.com/Sujit-O/pykg2vec)
 [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://pykg2vec.readthedocs.io)
@@ -55,7 +65,7 @@ $ pip install ampligraph
 $ # Pykg2vec can be installed directly with:
 $ pip install pykg2vec
 ```
-<strong><a href="https://github.com/stellargraph/stellargraph">StellarGraph</a></strong>
+## <a href="https://github.com/stellargraph/stellargraph">StellarGraph</a>
 
 
 [![GitHub](https://img.shields.io/badge/GitHub-stellargraph/stellargraph-black?logo=github)](https://github.com/stellargraph/stellargraph)
@@ -69,10 +79,11 @@ $ pip install pykg2vec
 $ # StellarGraph can be installed directly with:
 $ pip install stellargraph
 ```
-<strong><a href="https://github.com/facebookresearch/PyTorch-BigGraph">PyTorch-BigGraph</a></strong>
+## <a href="https://github.com/facebookresearch/PyTorch-BigGraph">PyTorch-BigGraph</a>
 
 
-> [**PyTorch-BigGraph: A Large-scale Graph Embedding Framework**](https://mlsys.org/Conferences/2019/doc/2019/71.pdf) (Lerer *et al.*, 2019)
+> [PyTorch-BigGraph: A Large-scale Graph Embedding Framework](https://mlsys.org/Conferences/2019/doc/2019/71.pdf)
+> Lerer *et al.*, 2019
 
 [![GitHub](https://img.shields.io/badge/GitHub-facebookresearch/PyTorchBigGraph-black?logo=github)](https://github.com/facebookresearch/PyTorch-BigGraph)
 [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://torchbiggraph.readthedocs.io)
@@ -85,10 +96,11 @@ $ pip install stellargraph
 $ # PyTorch-BigGraph can be installed directly with:
 $ pip install torchbiggraph
 ```
-<strong><a href="https://dgl.ai">Deep Graph Library</a></strong>
+## <a href="https://dgl.ai">Deep Graph Library</a>
 
 
-> [**Deep Graph Library: A Graph-Centric, Highly-Performant Package for Graph Neural Networks**](https://arxiv.org/abs/1909.01315) (Wang *et al.*, 2020)
+> [Deep Graph Library: A Graph-Centric, Highly-Performant Package for Graph Neural Networks](https://arxiv.org/abs/1909.01315)
+> Wang *et al.*, 2020
 
 [![GitHub](https://img.shields.io/badge/GitHub-dmlc/dgl-black?logo=github)](https://github.com/dmlc/dgl)
 [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://docs.dgl.ai)
@@ -101,7 +113,7 @@ $ pip install torchbiggraph
 $ # Deep Graph Library can be installed directly with:
 $ pip install dgl
 ```
-<strong><a href="https://github.com/PaddlePaddle/PGL">Paddle Graph Learning</a></strong>
+## <a href="https://github.com/PaddlePaddle/PGL">Paddle Graph Learning</a>
 
 
 [![GitHub](https://img.shields.io/badge/GitHub-PaddlePaddle/PGL-black?logo=github)](https://github.com/PaddlePaddle/PGL)
@@ -115,10 +127,11 @@ $ pip install dgl
 $ # Paddle Graph Learning can be installed directly with:
 $ pip install pgl
 ```
-<strong><a href="https://marius-project.org">Marius</a></strong>
+## <a href="https://marius-project.org">Marius</a>
 
 
-> [**Marius: Learning Massive Graph Embeddings on a Single Machine**](https://www.usenix.org/conference/osdi21/presentation/mohoney) (Mahoney *et al.*, 2021)
+> [Marius: Learning Massive Graph Embeddings on a Single Machine](https://www.usenix.org/conference/osdi21/presentation/mohoney)
+> Mahoney *et al.*, 2021
 
 [![GitHub](https://img.shields.io/badge/GitHub-mariusteam/marius-black?logo=github)](https://github.com/marius-team/marius)
 ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
@@ -126,10 +139,11 @@ $ pip install pgl
 
 Can't install Marius directly from PyPI with `pip`. See their [installation docs](https://github.com/marius-team/marius#installation-from-source-with-pip) instead.
 
-<strong><a href="https://graphvite.io">GraphVite</a></strong>
+## <a href="https://graphvite.io">GraphVite</a>
 
 
-> [**GraphVite: A High-Performance CPU-GPU Hybrid System for Node Embedding**](https://arxiv.org/abs/1903.00757) (Zhu *et al.*, 2019)
+> [GraphVite: A High-Performance CPU-GPU Hybrid System for Node Embedding](https://arxiv.org/abs/1903.00757)
+> Zhu *et al.*, 2019
 
 [![GitHub](https://img.shields.io/badge/GitHub-DeepGraphLearning/graphvite-black?logo=github)](https://github.com/DeepGraphLearning/graphvite)
 ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
@@ -137,10 +151,11 @@ Can't install Marius directly from PyPI with `pip`. See their [installation docs
 
 Can't install GraphVite directly from PyPI with `pip`. See their [installation docs](https://github.com/DeepGraphLearning/graphvite#installation) instead.
 
-<strong><a href="https://github.com/uma-pi1/kge">LibKGE</a></strong>
+## <a href="https://github.com/uma-pi1/kge">LibKGE</a>
 
 
-> [**LibKGE - A knowledge graph embedding library for reproducible research**](https://www.aclweb.org/anthology/2020.emnlp-demos.22) (Broscheit *et al.*, 2020)
+> [LibKGE - A knowledge graph embedding library for reproducible research](https://www.aclweb.org/anthology/2020.emnlp-demos.22)
+> Broscheit *et al.*, 2020
 
 [![GitHub](https://img.shields.io/badge/GitHub-umapi1/kge-black?logo=github)](https://github.com/uma-pi1/kge)
 ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
@@ -148,10 +163,11 @@ Can't install GraphVite directly from PyPI with `pip`. See their [installation d
 
 Can't install LibKGE directly from PyPI with `pip`. See their [installation docs](https://github.com/uma-pi1/kge#quick-start) instead.
 
-<strong><a href="http://openke.thunlp.org">OpenKE</a></strong>
+## <a href="http://openke.thunlp.org">OpenKE</a>
 
 
-> [**OpenKE: An Open Toolkit for Knowledge Embedding**](https://www.aclweb.org/anthology/D18-2024/) (Han *et al.*, 2018)
+> [OpenKE: An Open Toolkit for Knowledge Embedding](https://www.aclweb.org/anthology/D18-2024/)
+> Han *et al.*, 2018
 
 [![GitHub](https://img.shields.io/badge/GitHub-thunlp/OpenKE-black?logo=github)](https://github.com/thunlp/OpenKE)
 ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
