@@ -6,7 +6,11 @@
   framework: PyTorch
   pypi: pykeen
   academic: true
-  citation: https://jmlr.org/papers/v22/20-825.html
+  citation:
+    title: "PyKEEN 1.0: A Python Library for Training and Evaluating Knowledge Graph Embeddings"
+    year: 2021
+    author: Ali
+    url: https://jmlr.org/papers/v22/20-825.html
   arxiv: 2007.14175
   installation: https://github.com/pykeen/pykeen/#installation--
   ci:
@@ -18,6 +22,7 @@
   docs: https://docs.ampligraph.org
   language: python
   framework: TensorFlow
+  citation: null
   slack: https://join.slack.com/t/ampligraph/shared_invite/enQtNTc2NTI0MzUxMTM5LTRkODk0MjI2OWRlZjdjYmExY2Q3M2M3NGY0MGYyMmI4NWYyMWVhYTRjZDhkZjA1YTEyMzBkMGE4N2RmNTRiZDg
   installation: https://github.com/Accenture/AmpliGraph#installation
   pypi: ampligraph
@@ -32,6 +37,11 @@
   framework: PyTorch
   pypi: pykg2vec
   arxiv: 1906.04239
+  citation:
+    author: Yu
+    year: 2021
+    title: "Pykg2vec: A Python Library for Knowledge Graph Embedding"
+    url: https://jmlr.org/papers/v22/19-433.html
   ci:
     type: CircleCI
     link: https://app.circleci.com/pipelines/github/Sujit-O/pykg2vec
@@ -39,6 +49,7 @@
 
 - name: StellarGraph
   github: stellargraph/stellargraph
+  citation: null
   docs: https://stellargraph.readthedocs.io
   ci:
     type: GitHub
@@ -49,6 +60,11 @@
 
 - name: PyTorch-BigGraph
   github: facebookresearch/PyTorch-BigGraph
+  citation:
+      year: 2019
+      url: https://mlsys.org/Conferences/2019/doc/2019/71.pdf
+      author: Lerer
+      title: "PyTorch-BigGraph: A Large-scale Graph Embedding Framework"
   docs: https://torchbiggraph.readthedocs.io
   ci:
     type: CircleCI
@@ -65,6 +81,12 @@
     link: https://ci.dgl.ai/job/DGL/job/master
   pypi: dgl
   installation: https://github.com/dmlc/dgl#installation
+  slack: https://join.slack.com/t/deep-graph-library/shared_invite/zt-eb4ict1g-xcg3PhZAFAB8p6dtKuP6xQ
+  citation:
+    title: "Deep Graph Library: A Graph-Centric, Highly-Performant Package for Graph Neural Networks"
+    url: https://arxiv.org/abs/1909.01315
+    author: Wang
+    year: 2020
 
 - name: Paddle Graph Learning
   abbreviation: PGL
@@ -73,6 +95,7 @@
   installation: https://github.com/PaddlePaddle/PGL#installation
   docs: https://pgl.readthedocs.io
   pypi: pgl
+  citation: null
 
 - name: Marius
   github: marius-team/marius
@@ -88,6 +111,11 @@
   ci:
     type: github
     link: https://github.com/marius-team/marius/actions/workflows/build_and_test.yml
+  citation:
+    title: "Marius: Learning Massive Graph Embeddings on a Single Machine"
+    year: 2021
+    author: Mahoney
+    url: https://www.usenix.org/conference/osdi21/presentation/mohoney
 
 - name: GraphVite
   github: DeepGraphLearning/graphvite
@@ -97,15 +125,29 @@
   language:
     - python
     - c++
+  citation:
+    url: https://arxiv.org/abs/1903.00757
+    author: Zhu
+    year: 2019
+    title: "GraphVite: A High-Performance CPU-GPU Hybrid System for Node Embedding"
 
 - name: LibKGE
   github: uma-pi1/kge
   installation: https://github.com/uma-pi1/kge#quick-start
-  citation: https://openreview.net/forum?id=BkxSmlBFvr
+  citation:
+    year: 2020
+    title: "LibKGE - A knowledge graph embedding library for reproducible research"
+    author: Broscheit
+    url: https://www.aclweb.org/anthology/2020.emnlp-demos.22
+
 
 - name: OpenKE
   github: thunlp/OpenKE
   homepage: http://openke.thunlp.org
-  citation: https://www.aclweb.org/anthology/D18-2024/
   framework: TensorFlow
   installation: https://github.com/thunlp/OpenKE#installation
+  citation:
+    author: Han
+    year: 2018
+    url: https://www.aclweb.org/anthology/D18-2024/
+    title: "OpenKE: An Open Toolkit for Knowledge Embedding"

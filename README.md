@@ -22,6 +22,9 @@ focus on knowledge graph embedding models (KGEMs).
 $ # PyKEEN can be installed directly with:
 $ pip install pykeen
 ```
+
+[**PyKEEN 1.0: A Python Library for Training and Evaluating Knowledge Graph Embeddings**](https://jmlr.org/papers/v22/20-825.html) (Ali *et al.*, 2021)
+
 <strong><a href="https://github.com/Accenture/AmpliGraph">AmpliGraph</a></strong>
 
 [![GitHub](https://img.shields.io/badge/GitHub-Accenture/AmpliGraph-black?logo=github)](https://github.com/Accenture/AmpliGraph)
@@ -48,6 +51,9 @@ $ pip install ampligraph
 $ # Pykg2vec can be installed directly with:
 $ pip install pykg2vec
 ```
+
+[**Pykg2vec: A Python Library for Knowledge Graph Embedding**](https://jmlr.org/papers/v22/19-433.html) (Yu *et al.*, 2021)
+
 <strong><a href="https://github.com/stellargraph/stellargraph">StellarGraph</a></strong>
 
 [![GitHub](https://img.shields.io/badge/GitHub-stellargraph/stellargraph-black?logo=github)](https://github.com/stellargraph/stellargraph)
@@ -74,6 +80,9 @@ $ pip install stellargraph
 $ # PyTorch-BigGraph can be installed directly with:
 $ pip install torchbiggraph
 ```
+
+[**PyTorch-BigGraph: A Large-scale Graph Embedding Framework**](https://mlsys.org/Conferences/2019/doc/2019/71.pdf) (Lerer *et al.*, 2019)
+
 <strong><a href="https://dgl.ai">Deep Graph Library</a></strong>
 
 [![GitHub](https://img.shields.io/badge/GitHub-dmlc/dgl-black?logo=github)](https://github.com/dmlc/dgl)
@@ -87,6 +96,9 @@ $ pip install torchbiggraph
 $ # Deep Graph Library can be installed directly with:
 $ pip install dgl
 ```
+
+[**Deep Graph Library: A Graph-Centric, Highly-Performant Package for Graph Neural Networks**](https://arxiv.org/abs/1909.01315) (Wang *et al.*, 2020)
+
 <strong><a href="https://github.com/PaddlePaddle/PGL">Paddle Graph Learning</a></strong>
 
 [![GitHub](https://img.shields.io/badge/GitHub-PaddlePaddle/PGL-black?logo=github)](https://github.com/PaddlePaddle/PGL)
@@ -108,6 +120,9 @@ $ pip install pgl
 
 Can't install Marius directly from PyPI with `pip`. See their [installation docs](https://github.com/marius-team/marius#installation-from-source-with-pip) instead.
 
+
+[**Marius: Learning Massive Graph Embeddings on a Single Machine**](https://www.usenix.org/conference/osdi21/presentation/mohoney) (Mahoney *et al.*, 2021)
+
 <strong><a href="https://graphvite.io">GraphVite</a></strong>
 
 [![GitHub](https://img.shields.io/badge/GitHub-DeepGraphLearning/graphvite-black?logo=github)](https://github.com/DeepGraphLearning/graphvite)
@@ -115,6 +130,9 @@ Can't install Marius directly from PyPI with `pip`. See their [installation docs
 ![CI](https://img.shields.io/badge/CI-missing-red)
 
 Can't install GraphVite directly from PyPI with `pip`. See their [installation docs](https://github.com/DeepGraphLearning/graphvite#installation) instead.
+
+
+[**GraphVite: A High-Performance CPU-GPU Hybrid System for Node Embedding**](https://arxiv.org/abs/1903.00757) (Zhu *et al.*, 2019)
 
 <strong><a href="https://github.com/uma-pi1/kge">LibKGE</a></strong>
 
@@ -124,6 +142,9 @@ Can't install GraphVite directly from PyPI with `pip`. See their [installation d
 
 Can't install LibKGE directly from PyPI with `pip`. See their [installation docs](https://github.com/uma-pi1/kge#quick-start) instead.
 
+
+[**LibKGE - A knowledge graph embedding library for reproducible research**](https://www.aclweb.org/anthology/2020.emnlp-demos.22) (Broscheit *et al.*, 2020)
+
 <strong><a href="http://openke.thunlp.org">OpenKE</a></strong>
 
 [![GitHub](https://img.shields.io/badge/GitHub-thunlp/OpenKE-black?logo=github)](https://github.com/thunlp/OpenKE)
@@ -131,6 +152,9 @@ Can't install LibKGE directly from PyPI with `pip`. See their [installation docs
 ![CI](https://img.shields.io/badge/CI-missing-red)
 
 Can't install OpenKE directly from PyPI with `pip`. See their [installation docs](https://github.com/thunlp/OpenKE#installation) instead.
+
+
+[**OpenKE: An Open Toolkit for Knowledge Embedding**](https://www.aclweb.org/anthology/D18-2024/) (Han *et al.*, 2018)
 
 
 ## Footnotes
