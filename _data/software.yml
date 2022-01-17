@@ -17,6 +17,7 @@
   ci:
     type: github
     link: https://github.com/pykeen/pykeen/actions/workflows/tests.yml
+  description: PyKEEN is a PyTorch-based KGEM library for training and evaluation of knowledge graph embedding models. It is built with a modular architecture so the model, loss function, training loop, and other components can be used interchangably.
 
 - name: AmpliGraph
   github: Accenture/AmpliGraph
@@ -30,6 +31,7 @@
   ci:
     type: CircleCI
     link: https://app.circleci.com/pipelines/github/Accenture/AmpliGraph
+  description: AmpliGraph is a suite of neural machine learning models for relational Learning, a branch of machine learning that deals with supervised learning on knowledge graphs.
 
 - name: Pykg2vec
   github: Sujit-O/pykg2vec
@@ -48,6 +50,7 @@
     type: CircleCI
     link: https://app.circleci.com/pipelines/github/Sujit-O/pykg2vec
   installation: https://github.com/Sujit-O/pykg2vec#to-get-started
+  description: Pykg2vec is a library for learning the representation of entities and relations in Knowledge Graphs built on top of PyTorch 1.5 (TF2 version is available in tf-master branch as well). It attempts to bring state-of-the-art knowledge graph embedding algorithms and the necessary building blocks in the pipeline of knowledge graph embedding task into a single library.
 
 - name: StellarGraph
   github: stellargraph/stellargraph
@@ -59,6 +62,7 @@
   language: python
   pypi: stellargraph
   installation: https://github.com/stellargraph/stellargraph#installation
+  description: The StellarGraph library offers state-of-the-art algorithms for graph machine learning, making it easy to discover patterns and answer questions about graph-structured data.
 
 - name: PyTorch-BigGraph
   github: facebookresearch/PyTorch-BigGraph
@@ -74,6 +78,7 @@
     link: https://app.circleci.com/pipelines/github/facebookresearch/PyTorch-BigGraph
   pypi: torchbiggraph
   installation: https://github.com/facebookresearch/PyTorch-BigGraph#installation
+  description: PyTorch-BigGraph (PBG) is a distributed system for learning graph embeddings for large graphs, particularly big web interaction graphs with up to billions of entities and trillions of edges.
 
 - name: Deep Graph Library
   github: dmlc/dgl
@@ -91,6 +96,7 @@
     venue: arXiv
     authors: Minjie Wang, Da Zheng, Zihao Ye, Quan Gan, Mufei Li, Xiang Song, Jinjing Zhou, Chao Ma, Lingfan Yu, Yu Gai, Tianjun Xiao, Tong He, George Karypis, Jinyang Li, and Zheng Zhang
     year: 2020
+  description: DGL is an easy-to-use, high performance and scalable Python package for deep learning on graphs. DGL is framework agnostic, meaning if a deep graph model is a component of an end-to-end application, the rest of the logics can be implemented in any major frameworks, such as PyTorch, Apache MXNet or TensorFlow.
 
 - name: Paddle Graph Learning
   abbreviation: PGL
@@ -100,6 +106,7 @@
   docs: https://pgl.readthedocs.io
   pypi: pgl
   citation: null
+  description: Paddle Graph Learning (PGL) is an efficient and flexible graph learning framework based on PaddlePaddle.
 
 - name: Marius
   github: marius-team/marius
@@ -121,6 +128,7 @@
     authors: Jason Mohoney, Roger Waleffe, Henry Xu, Theodoros Rekatsinas, and Shivaram Venkataraman
     url: https://www.usenix.org/conference/osdi21/presentation/mohoney
     venue: OSDI
+  description: Marius is a system for large-scale graph learning that supports large-scale link prediction training, and preprocessing and training of datasets.
 
 - name: GraphVite
   github: DeepGraphLearning/graphvite
@@ -136,6 +144,7 @@
     year: 2019
     title: "GraphVite: A High-Performance CPU-GPU Hybrid System for Node Embedding"
     venue: arXiv
+  description: GraphVite is a general and high-performance graph embedding system for various applications, designed for CPU-GPU hybrid architecture.
 
 - name: LibKGE
   github: uma-pi1/kge
@@ -146,7 +155,7 @@
     authors: Samuel Broscheit, Daniel Ruffinelli, Adrian Kochsiek, Patrick Betz, and Rainer Gemulla
     url: https://www.aclweb.org/anthology/2020.emnlp-demos.22
     venue: EMNLP
-
+  description: LibKGE is a PyTorch-based library for efficient training, evaluation, and hyperparameter optimization of knowledge graph embeddings.
 
 - name: OpenKE
   github: thunlp/OpenKE
@@ -159,3 +168,4 @@
     url: https://www.aclweb.org/anthology/D18-2024/
     title: "OpenKE: An Open Toolkit for Knowledge Embedding"
     venue: EMNLP
+  description: OpenKE is an open-source framework for knowledge embedding organized by THUNLP based on the TensorFlow toolkit.

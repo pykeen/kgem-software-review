@@ -12,21 +12,21 @@ focus on knowledge graph embedding models (KGEMs).
 {% for entry in kgem_software_data %}
 ## <a href="{% if entry.homepage %}{{ entry.homepage }}{% else %}https://github.com/{{ entry.github }}{% endif %}">{{ entry.name }}</a> [![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github.replace("-", "") }}-black?logo=github)](https://github.com/{{ entry.github }}) {% if entry.docs  %}[![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)]({{ entry.docs }}){% else %}![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook){% endif %} {% if entry.ci %}[![CI](https://img.shields.io/badge/CI-{{ entry.ci.type }}-green?logo={{ entry.ci.type }})]({{ entry.ci.link }}){% else %}![CI](https://img.shields.io/badge/CI-missing-red){% endif %}
 
+
+{{ entry.description }}
+
 {% if entry.citation %}
 Citation:
 
 > [{{ entry.citation.title }}]({{ entry.citation.url }})
 > <br />{{ entry.citation.authors }}
 > <br />*{{ entry.citation.venue }}*, {{ entry.citation.year }}
-{% else %}
-{{ entry.name }} does not have an associated scholarly publication.
 {% endif %}
 
 {% if entry.pypi %}
 Installation:
 
 ```shell
-$ # {{ entry.name }} can be installed directly with:
 $ pip install {{ entry.pypi }}
 ```
 
@@ -38,7 +38,7 @@ Extras:
 
 {% else %}
 
-Can't install {{ entry.name }} directly from PyPI with `pip`. See their [installation docs]({{ entry.installation }}) instead.
+{{ entry.name }} can't currently be installed directly from PyPI *via* `pip`. See its [installation docs]({{ entry.installation }}) instead.
 
 {% endif %}
 {% endfor %}

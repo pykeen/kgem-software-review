@@ -18,6 +18,9 @@ focus on knowledge graph embedding models (KGEMs).
 1. [OpenKE](#openke)
 
 ## <a href="https://pykeen.github.io">PyKEEN</a> [![GitHub](https://img.shields.io/badge/GitHub-pykeen/pykeen-black?logo=github)](https://github.com/pykeen/pykeen) [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://pykeen.readthedocs.io) [![CI](https://img.shields.io/badge/CI-github-green?logo=github)](https://github.com/pykeen/pykeen/actions/workflows/tests.yml)
+
+PyKEEN is a PyTorch-based KGEM library for training and evaluation of knowledge graph embedding models. It is built with a modular architecture so the model, loss function, training loop, and other components can be used interchangably.
+
 Citation:
 
 > [PyKEEN 1.0: A Python Library for Training and Evaluating Knowledge Graph Embeddings](https://jmlr.org/papers/v22/20-825.html)
@@ -27,7 +30,6 @@ Citation:
 Installation:
 
 ```shell
-$ # PyKEEN can be installed directly with:
 $ pip install pykeen
 ```
 
@@ -38,12 +40,13 @@ Extras:
 ![PyPI - Software Version](https://img.shields.io/pypi/v/pykeen)
 
 ## <a href="https://github.com/Accenture/AmpliGraph">AmpliGraph</a> [![GitHub](https://img.shields.io/badge/GitHub-Accenture/AmpliGraph-black?logo=github)](https://github.com/Accenture/AmpliGraph) [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://docs.ampligraph.org) [![CI](https://img.shields.io/badge/CI-CircleCI-green?logo=CircleCI)](https://app.circleci.com/pipelines/github/Accenture/AmpliGraph)
-AmpliGraph does not have an associated scholarly publication.
+
+AmpliGraph is a suite of neural machine learning models for relational Learning, a branch of machine learning that deals with supervised learning on knowledge graphs.
+
 
 Installation:
 
 ```shell
-$ # AmpliGraph can be installed directly with:
 $ pip install ampligraph
 ```
 
@@ -54,6 +57,9 @@ Extras:
 ![PyPI - Software Version](https://img.shields.io/pypi/v/ampligraph)
 
 ## <a href="https://github.com/Sujit-O/pykg2vec">Pykg2vec</a> [![GitHub](https://img.shields.io/badge/GitHub-SujitO/pykg2vec-black?logo=github)](https://github.com/Sujit-O/pykg2vec) [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://pykg2vec.readthedocs.io) [![CI](https://img.shields.io/badge/CI-CircleCI-green?logo=CircleCI)](https://app.circleci.com/pipelines/github/Sujit-O/pykg2vec)
+
+Pykg2vec is a library for learning the representation of entities and relations in Knowledge Graphs built on top of PyTorch 1.5 (TF2 version is available in tf-master branch as well). It attempts to bring state-of-the-art knowledge graph embedding algorithms and the necessary building blocks in the pipeline of knowledge graph embedding task into a single library.
+
 Citation:
 
 > [Pykg2vec: A Python Library for Knowledge Graph Embedding](https://jmlr.org/papers/v22/19-433.html)
@@ -63,7 +69,6 @@ Citation:
 Installation:
 
 ```shell
-$ # Pykg2vec can be installed directly with:
 $ pip install pykg2vec
 ```
 
@@ -74,12 +79,13 @@ Extras:
 ![PyPI - Software Version](https://img.shields.io/pypi/v/pykg2vec)
 
 ## <a href="https://github.com/stellargraph/stellargraph">StellarGraph</a> [![GitHub](https://img.shields.io/badge/GitHub-stellargraph/stellargraph-black?logo=github)](https://github.com/stellargraph/stellargraph) [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://stellargraph.readthedocs.io) [![CI](https://img.shields.io/badge/CI-GitHub-green?logo=GitHub)](https://github.com/stellargraph/stellargraph/actions/workflows/ci.yml)
-StellarGraph does not have an associated scholarly publication.
+
+The StellarGraph library offers state-of-the-art algorithms for graph machine learning, making it easy to discover patterns and answer questions about graph-structured data.
+
 
 Installation:
 
 ```shell
-$ # StellarGraph can be installed directly with:
 $ pip install stellargraph
 ```
 
@@ -90,6 +96,9 @@ Extras:
 ![PyPI - Software Version](https://img.shields.io/pypi/v/stellargraph)
 
 ## <a href="https://github.com/facebookresearch/PyTorch-BigGraph">PyTorch-BigGraph</a> [![GitHub](https://img.shields.io/badge/GitHub-facebookresearch/PyTorchBigGraph-black?logo=github)](https://github.com/facebookresearch/PyTorch-BigGraph) [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://torchbiggraph.readthedocs.io) [![CI](https://img.shields.io/badge/CI-CircleCI-green?logo=CircleCI)](https://app.circleci.com/pipelines/github/facebookresearch/PyTorch-BigGraph)
+
+PyTorch-BigGraph (PBG) is a distributed system for learning graph embeddings for large graphs, particularly big web interaction graphs with up to billions of entities and trillions of edges.
+
 Citation:
 
 > [PyTorch-BigGraph: A Large-scale Graph Embedding Framework](https://mlsys.org/Conferences/2019/doc/2019/71.pdf)
@@ -99,7 +108,6 @@ Citation:
 Installation:
 
 ```shell
-$ # PyTorch-BigGraph can be installed directly with:
 $ pip install torchbiggraph
 ```
 
@@ -110,6 +118,9 @@ Extras:
 ![PyPI - Software Version](https://img.shields.io/pypi/v/torchbiggraph)
 
 ## <a href="https://dgl.ai">Deep Graph Library</a> [![GitHub](https://img.shields.io/badge/GitHub-dmlc/dgl-black?logo=github)](https://github.com/dmlc/dgl) [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://docs.dgl.ai) [![CI](https://img.shields.io/badge/CI-Jenkins-green?logo=Jenkins)](https://ci.dgl.ai/job/DGL/job/master)
+
+DGL is an easy-to-use, high performance and scalable Python package for deep learning on graphs. DGL is framework agnostic, meaning if a deep graph model is a component of an end-to-end application, the rest of the logics can be implemented in any major frameworks, such as PyTorch, Apache MXNet or TensorFlow.
+
 Citation:
 
 > [Deep Graph Library: A Graph-Centric, Highly-Performant Package for Graph Neural Networks](https://arxiv.org/abs/1909.01315)
@@ -119,7 +130,6 @@ Citation:
 Installation:
 
 ```shell
-$ # Deep Graph Library can be installed directly with:
 $ pip install dgl
 ```
 
@@ -130,12 +140,13 @@ Extras:
 ![PyPI - Software Version](https://img.shields.io/pypi/v/dgl)
 
 ## <a href="https://github.com/PaddlePaddle/PGL">Paddle Graph Learning</a> [![GitHub](https://img.shields.io/badge/GitHub-PaddlePaddle/PGL-black?logo=github)](https://github.com/PaddlePaddle/PGL) [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://pgl.readthedocs.io) ![CI](https://img.shields.io/badge/CI-missing-red)
-Paddle Graph Learning does not have an associated scholarly publication.
+
+Paddle Graph Learning (PGL) is an efficient and flexible graph learning framework based on PaddlePaddle.
+
 
 Installation:
 
 ```shell
-$ # Paddle Graph Learning can be installed directly with:
 $ pip install pgl
 ```
 
@@ -146,6 +157,9 @@ Extras:
 ![PyPI - Software Version](https://img.shields.io/pypi/v/pgl)
 
 ## <a href="https://marius-project.org">Marius</a> [![GitHub](https://img.shields.io/badge/GitHub-mariusteam/marius-black?logo=github)](https://github.com/marius-team/marius) ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook) [![CI](https://img.shields.io/badge/CI-github-green?logo=github)](https://github.com/marius-team/marius/actions/workflows/build_and_test.yml)
+
+Marius is a system for large-scale graph learning that supports large-scale link prediction training, and preprocessing and training of datasets.
+
 Citation:
 
 > [Marius: Learning Massive Graph Embeddings on a Single Machine](https://www.usenix.org/conference/osdi21/presentation/mohoney)
@@ -153,9 +167,12 @@ Citation:
 > <br />*OSDI*, 2021
 
 
-Can't install Marius directly from PyPI with `pip`. See their [installation docs](https://github.com/marius-team/marius#installation-from-source-with-pip) instead.
+Marius can't currently be installed directly from PyPI *via* `pip`. See its [installation docs](https://github.com/marius-team/marius#installation-from-source-with-pip) instead.
 
 ## <a href="https://graphvite.io">GraphVite</a> [![GitHub](https://img.shields.io/badge/GitHub-DeepGraphLearning/graphvite-black?logo=github)](https://github.com/DeepGraphLearning/graphvite) ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook) ![CI](https://img.shields.io/badge/CI-missing-red)
+
+GraphVite is a general and high-performance graph embedding system for various applications, designed for CPU-GPU hybrid architecture.
+
 Citation:
 
 > [GraphVite: A High-Performance CPU-GPU Hybrid System for Node Embedding](https://arxiv.org/abs/1903.00757)
@@ -163,9 +180,12 @@ Citation:
 > <br />*arXiv*, 2019
 
 
-Can't install GraphVite directly from PyPI with `pip`. See their [installation docs](https://github.com/DeepGraphLearning/graphvite#installation) instead.
+GraphVite can't currently be installed directly from PyPI *via* `pip`. See its [installation docs](https://github.com/DeepGraphLearning/graphvite#installation) instead.
 
 ## <a href="https://github.com/uma-pi1/kge">LibKGE</a> [![GitHub](https://img.shields.io/badge/GitHub-umapi1/kge-black?logo=github)](https://github.com/uma-pi1/kge) ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook) ![CI](https://img.shields.io/badge/CI-missing-red)
+
+LibKGE is a PyTorch-based library for efficient training, evaluation, and hyperparameter optimization of knowledge graph embeddings.
+
 Citation:
 
 > [LibKGE - A knowledge graph embedding library for reproducible research](https://www.aclweb.org/anthology/2020.emnlp-demos.22)
@@ -173,9 +193,12 @@ Citation:
 > <br />*EMNLP*, 2020
 
 
-Can't install LibKGE directly from PyPI with `pip`. See their [installation docs](https://github.com/uma-pi1/kge#quick-start) instead.
+LibKGE can't currently be installed directly from PyPI *via* `pip`. See its [installation docs](https://github.com/uma-pi1/kge#quick-start) instead.
 
 ## <a href="http://openke.thunlp.org">OpenKE</a> [![GitHub](https://img.shields.io/badge/GitHub-thunlp/OpenKE-black?logo=github)](https://github.com/thunlp/OpenKE) ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook) ![CI](https://img.shields.io/badge/CI-missing-red)
+
+OpenKE is an open-source framework for knowledge embedding organized by THUNLP based on the TensorFlow toolkit.
+
 Citation:
 
 > [OpenKE: An Open Toolkit for Knowledge Embedding](https://www.aclweb.org/anthology/D18-2024/)
@@ -183,7 +206,7 @@ Citation:
 > <br />*EMNLP*, 2018
 
 
-Can't install OpenKE directly from PyPI with `pip`. See their [installation docs](https://github.com/thunlp/OpenKE#installation) instead.
+OpenKE can't currently be installed directly from PyPI *via* `pip`. See its [installation docs](https://github.com/thunlp/OpenKE#installation) instead.
 
 
 ## Footnotes
