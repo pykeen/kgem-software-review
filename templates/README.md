@@ -10,7 +10,7 @@ focus on knowledge graph embedding models (KGEMs).
 {% endfor %}
 
 {% for entry in kgem_software_data %}
-## <a href="{% if entry.homepage %}{{ entry.homepage }}{% else %}https://github.com/{{ entry.github }}{% endif %}">{{ entry.name }}</a> [![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github.replace("-", "") }}-black?logo=github)](https://github.com/{{ entry.github }}) {% if entry.docs  %}[![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)]({{ entry.docs }}){% else %}![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook){% endif %} {% if entry.ci %}[![CI](https://img.shields.io/badge/CI-{{ entry.ci.type }}-green?logo={{ entry.ci.type }})]({{ entry.ci.link }}){% else %}![CI](https://img.shields.io/badge/CI-missing-red){% endif %}
+## <a href="{% if entry.homepage %}{{ entry.homepage }}{% else %}https://github.com/{{ entry.github }}{% endif %}">{{ entry.name }}</a> [![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github.replace("-", "") }}-black?logo=github)](https://github.com/{{ entry.github }}) ![License](https://img.shields.io/github/license/{{ entry.github }}) {% if entry.docs  %}[![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)]({{ entry.docs }}){% else %}![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook){% endif %} {% if entry.ci %}[![CI](https://img.shields.io/badge/CI-{{ entry.ci.type }}-green?logo={{ entry.ci.type }})]({{ entry.ci.link }}){% else %}![CI](https://img.shields.io/badge/CI-missing-red){% endif %}
 
 
 {{ entry.description }}
@@ -24,17 +24,11 @@ Citation:
 {% endif %}
 
 {% if entry.pypi %}
-Installation:
+Installation ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/{{ entry.pypi }}) ![PyPI - Software Version](https://img.shields.io/pypi/v/{{ entry.pypi }})
 
 ```shell
 $ pip install {{ entry.pypi }}
 ```
-
-Extras:
-
-![PyPI - License](https://img.shields.io/pypi/l/{{ entry.pypi }})
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/{{ entry.pypi }})
-![PyPI - Software Version](https://img.shields.io/pypi/v/{{ entry.pypi }})
 
 {% else %}
 
