@@ -1,7 +1,8 @@
-# Awesome Graph Machine Learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Knowledge Graph Embedding Model Software [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This list contains awesome code for graph machine learning, with a big
-focus on knowledge graph embedding models (KGEMs).
+This list contains awesome code for knowledge graph embedding models (KGEMs).
+It doesn't contain single model research repositories nor more general graph
+machine learning packages like PyTorch-Geometric.
 
 ## Contents
 
