@@ -13,6 +13,7 @@ machine learning packages like PyTorch-Geometric.
 1. [PyTorch-BigGraph](#pytorch-biggraph)
 1. [Deep Graph Library](#deep-graph-library)
 1. [Paddle Graph Learning](#paddle-graph-learning)
+1. [CogKGE](#cogkge)
 1. [Marius](#marius)
 1. [GraphVite](#graphvite)
 1. [LibKGE](#libkge)
@@ -105,6 +106,20 @@ Install with:
 
 ```shell
 $ pip install pgl
+```
+
+## <a href="http://cognlp.com/cogkge">CogKGE</a> [![GitHub](https://img.shields.io/badge/GitHub-jinzhuoran/CogKGE-black?logo=github)](https://github.com/jinzhuoran/CogKGE) ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
+
+A Knowledge Graph Embedding Toolkit and Benckmark for Representing Multi-source and Heterogeneous Knowledge
+
+> [CogKGE: A Knowledge Graph Embedding Toolkit and Benchmark for Representing Multi-source and Heterogeneous Knowledge](https://aclanthology.org/2022.acl-demo.16/)
+> <br />Zhuoran Jin, Tianyi Men, Hongbang Yuan, Zhitao He, Dianbo Sui, Chenhao Wang, Zhipeng Xue, Yubo Chen, Jun Zhao
+> <br />*ACL*, 2022
+
+Install with:
+
+```shell
+$ pip install cogkge
 ```
 
 ## <a href="https://marius-project.org">Marius</a> [![GitHub](https://img.shields.io/badge/GitHub-mariusteam/marius-black?logo=github)](https://github.com/marius-team/marius) ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)

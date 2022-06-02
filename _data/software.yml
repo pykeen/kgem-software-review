@@ -114,6 +114,21 @@
   citation: null
   description: Paddle Graph Learning (PGL) is an efficient and flexible graph learning framework based on PaddlePaddle.
 
+- name: CogKGE
+  github: jinzhuoran/CogKGE
+  academic: true
+  homepage: http://cognlp.com/cogkge
+  framework: PyTorch
+  installation: https://github.com/jinzhuoran/CogKGE#install
+  pypi: cogkge
+  citation:
+    authors: Zhuoran Jin, Tianyi Men, Hongbang Yuan, Zhitao He, Dianbo Sui, Chenhao Wang, Zhipeng Xue, Yubo Chen, Jun Zhao
+    year: 2022
+    url: https://aclanthology.org/2022.acl-demo.16/
+    title: "CogKGE: A Knowledge Graph Embedding Toolkit and Benchmark for Representing Multi-source and Heterogeneous Knowledge"
+    venue: ACL
+  description: A Knowledge Graph Embedding Toolkit and Benckmark for Representing Multi-source and Heterogeneous Knowledge
+
 - name: Marius
   github: marius-team/marius
   homepage: https://marius-project.org
@@ -178,17 +193,3 @@
     title: "OpenKE: An Open Toolkit for Knowledge Embedding"
     venue: EMNLP
   description: OpenKE is an open-source framework for knowledge embedding organized by THUNLP based on the TensorFlow toolkit.
-
-- name: CogKGE
-  github: jinzhuoran/CogKGE
-  academic: true
-  homepage: http://cognlp.com/cogkge
-  framework: PyTorch
-  installation: https://github.com/jinzhuoran/CogKGE#install
-  citation:
-    authors: Zhuoran Jin, Tianyi Men, Hongbang Yuan, Zhitao He, Dianbo Sui, Chenhao Wang, Zhipeng Xue, Yubo Chen, Jun Zhao
-    year: 2022
-    url: https://aclanthology.org/2022.acl-demo.16/
-    title: "CogKGE: A Knowledge Graph Embedding Toolkit and Benchmark for Representing Multi-source and Heterogeneous Knowledge"
-    venue: ACL
-  description: A Knowledge Graph Embedding Toolkit and Benckmark for Representing Multi-source and Heterogeneous Knowledge
