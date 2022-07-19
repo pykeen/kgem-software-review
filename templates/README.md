@@ -17,7 +17,12 @@ machine learning packages like PyTorch-Geometric.
 {{ entry.description }}
 
 {% if entry.citation %}
+{% if entry.citation.url %}
 > [{{ entry.citation.title }}]({{ entry.citation.url }})
+{% else %}
+> **Warning**
+> {{ entry.citation.title }} (<strong>manuscript is not yet publicly available</strong>)
+{% endif %}
 > <br />{{ entry.citation.authors }}
 > <br />*{{ entry.citation.venue }}*, {{ entry.citation.year }}
 {% endif %}
