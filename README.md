@@ -172,7 +172,8 @@ OpenKE can't currently be installed directly from PyPI *via* `pip`. See its [ins
 
 
 > **Warning**
-> μKG: A Library for Multi-source Knowledge Graph Embeddings and Applications (<strong>manuscript is not yet publicly available</strong>)
+> <strong>This manuscript is not yet publicly available</strong>
+> <br />μKG: A Library for Multi-source Knowledge Graph Embeddings and Applications
 > <br />Xindi Luo, Zequn Sun, Wei Hu
 > <br />*ISWC*, 2022
 

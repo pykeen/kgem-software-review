@@ -21,7 +21,8 @@ machine learning packages like PyTorch-Geometric.
 > [{{ entry.citation.title }}]({{ entry.citation.url }})
 {% else %}
 > **Warning**
-> {{ entry.citation.title }} (<strong>manuscript is not yet publicly available</strong>)
+> <strong>This manuscript is not yet publicly available</strong>
+> <br />{{ entry.citation.title }}
 {% endif %}
 > <br />{{ entry.citation.authors }}
 > <br />*{{ entry.citation.venue }}*, {{ entry.citation.year }}
