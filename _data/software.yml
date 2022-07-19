@@ -194,12 +194,16 @@
     venue: EMNLP
   description: OpenKE is an open-source framework for knowledge embedding organized by THUNLP based on the TensorFlow toolkit.
 
-- name: 
+- name: μKG
   github: nju-websoft/muKG
   academic: true
+  language: python
+  framework:
+    - PyTorch
+    - TensorFlow
   installation: https://github.com/nju-websoft/muKG#getting-started-
   citation:
     authors: Xindi Luo, Zequn Sun, Wei Hu
     year: 2022
-    url: "μKG: A Library for Multi-source Knowledge Graph Embeddings and Applications"
-  
+    venue: ISWC
+    title: "μKG: A Library for Multi-source Knowledge Graph Embeddings and Applications"

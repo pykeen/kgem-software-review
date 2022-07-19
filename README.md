@@ -18,6 +18,7 @@ machine learning packages like PyTorch-Geometric.
 1. [GraphVite](#graphvite)
 1. [LibKGE](#libkge)
 1. [OpenKE](#openke)
+1. [μKG](#μkg)
 
 ## <a href="https://pykeen.github.io">PyKEEN</a> [![GitHub](https://img.shields.io/badge/GitHub-pykeen/pykeen-black?logo=github)](https://github.com/pykeen/pykeen) [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://pykeen.readthedocs.io)
 
@@ -165,6 +166,18 @@ OpenKE is an open-source framework for knowledge embedding organized by THUNLP b
 
 
 OpenKE can't currently be installed directly from PyPI *via* `pip`. See its [installation docs](https://github.com/thunlp/OpenKE#installation) instead.
+
+## <a href="https://github.com/nju-websoft/muKG">μKG</a> [![GitHub](https://img.shields.io/badge/GitHub-njuwebsoft/muKG-black?logo=github)](https://github.com/nju-websoft/muKG) ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
+
+
+
+> **Warning**
+> μKG: A Library for Multi-source Knowledge Graph Embeddings and Applications (<strong>manuscript is not yet publicly available</strong>)
+> <br />Xindi Luo, Zequn Sun, Wei Hu
+> <br />*ISWC*, 2022
+
+
+μKG can't currently be installed directly from PyPI *via* `pip`. See its [installation docs](https://github.com/nju-websoft/muKG#getting-started-) instead.
 
 
 ## Footnotes
