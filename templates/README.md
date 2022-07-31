@@ -11,7 +11,9 @@ machine learning packages like PyTorch-Geometric.
 {% endfor %}
 
 {% for entry in kgem_software_data %}
-## <a href="{% if entry.homepage %}{{ entry.homepage }}{% else %}https://github.com/{{ entry.github }}{% endif %}">{{ entry.name }}</a> [![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github.replace("-", "") }}-black?logo=github)](https://github.com/{{ entry.github }}) {% if entry.docs  %}[![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)]({{ entry.docs }}){% else %}![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook){% endif %}
+## <a href="{% if entry.homepage %}{{ entry.homepage }}{% else %}https://github.com/{{ entry.github }}{% endif %}">{{ entry.name }}</a>
+
+[![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github.replace("-", "") }}-black?logo=github)](https://github.com/{{ entry.github }}) {% if entry.docs  %}[![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)]({{ entry.docs }}){% else %}![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook){% endif %}
 
 
 {{ entry.description }}
