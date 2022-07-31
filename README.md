@@ -20,9 +20,9 @@ machine learning packages like PyTorch-Geometric.
 12. [OpenKE](#openke)
 13. [μKG](#μkg)
 
-## <a href="https://pykeen.github.io">PyKEEN</a>
+## PyKEEN
 
-[![GitHub](https://img.shields.io/badge/GitHub-pykeen/pykeen-black?logo=github)](https://github.com/pykeen/pykeen) [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://pykeen.readthedocs.io)
+[![GitHub](https://img.shields.io/badge/GitHub-pykeen/pykeen-black?logo=github)](https://github.com/pykeen/pykeen) [![Docs](https://img.shields.io/badge/Homepage-black?logo=HomeAdvisor)](https://pykeen.github.io) [![Docs](https://img.shields.io/badge/Docs-black?logo=gitbook)](https://pykeen.readthedocs.io)
 
 PyKEEN is a PyTorch-based KGEM library for training and evaluation of knowledge graph embedding models. It is built with a modular architecture so the model, loss function, training loop, and other components can be used interchangably.
 
@@ -36,9 +36,9 @@ Install with:
 $ pip install pykeen
 ```
 
-## <a href="https://github.com/Accenture/AmpliGraph">AmpliGraph</a>
+## AmpliGraph
 
-[![GitHub](https://img.shields.io/badge/GitHub-Accenture/AmpliGraph-black?logo=github)](https://github.com/Accenture/AmpliGraph) [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://docs.ampligraph.org)
+[![GitHub](https://img.shields.io/badge/GitHub-Accenture/AmpliGraph-black?logo=github)](https://github.com/Accenture/AmpliGraph)  [![Docs](https://img.shields.io/badge/Docs-black?logo=gitbook)](https://docs.ampligraph.org)
 
 AmpliGraph is a suite of neural machine learning models for relational Learning, a branch of machine learning that deals with supervised learning on knowledge graphs.
 
@@ -49,9 +49,9 @@ Install with:
 $ pip install ampligraph
 ```
 
-## <a href="https://github.com/Sujit-O/pykg2vec">Pykg2vec</a>
+## Pykg2vec
 
-[![GitHub](https://img.shields.io/badge/GitHub-SujitO/pykg2vec-black?logo=github)](https://github.com/Sujit-O/pykg2vec) [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://pykg2vec.readthedocs.io)
+[![GitHub](https://img.shields.io/badge/GitHub-SujitO/pykg2vec-black?logo=github)](https://github.com/Sujit-O/pykg2vec)  [![Docs](https://img.shields.io/badge/Docs-black?logo=gitbook)](https://pykg2vec.readthedocs.io)
 
 Pykg2vec is a library for learning the representation of entities and relations in Knowledge Graphs built on top of PyTorch 1.5 (TF2 version is available in tf-master branch as well). It attempts to bring state-of-the-art knowledge graph embedding algorithms and the necessary building blocks in the pipeline of knowledge graph embedding task into a single library.
 
@@ -65,9 +65,9 @@ Install with:
 $ pip install pykg2vec
 ```
 
-## <a href="https://github.com/stellargraph/stellargraph">StellarGraph</a>
+## StellarGraph
 
-[![GitHub](https://img.shields.io/badge/GitHub-stellargraph/stellargraph-black?logo=github)](https://github.com/stellargraph/stellargraph) [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://stellargraph.readthedocs.io)
+[![GitHub](https://img.shields.io/badge/GitHub-stellargraph/stellargraph-black?logo=github)](https://github.com/stellargraph/stellargraph)  [![Docs](https://img.shields.io/badge/Docs-black?logo=gitbook)](https://stellargraph.readthedocs.io)
 
 The StellarGraph library offers state-of-the-art algorithms for graph machine learning, making it easy to discover patterns and answer questions about graph-structured data.
 
@@ -78,9 +78,9 @@ Install with:
 $ pip install stellargraph
 ```
 
-## <a href="https://github.com/facebookresearch/PyTorch-BigGraph">PyTorch-BigGraph</a>
+## PyTorch-BigGraph
 
-[![GitHub](https://img.shields.io/badge/GitHub-facebookresearch/PyTorchBigGraph-black?logo=github)](https://github.com/facebookresearch/PyTorch-BigGraph) [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://torchbiggraph.readthedocs.io)
+[![GitHub](https://img.shields.io/badge/GitHub-facebookresearch/PyTorchBigGraph-black?logo=github)](https://github.com/facebookresearch/PyTorch-BigGraph)  [![Docs](https://img.shields.io/badge/Docs-black?logo=gitbook)](https://torchbiggraph.readthedocs.io)
 
 PyTorch-BigGraph (PBG) is a distributed system for learning graph embeddings for large graphs, particularly big web interaction graphs with up to billions of entities and trillions of edges.
 
@@ -94,9 +94,9 @@ Install with:
 $ pip install torchbiggraph
 ```
 
-## <a href="https://dgl.ai">Deep Graph Library</a>
+## Deep Graph Library
 
-[![GitHub](https://img.shields.io/badge/GitHub-dmlc/dgl-black?logo=github)](https://github.com/dmlc/dgl) [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://docs.dgl.ai)
+[![GitHub](https://img.shields.io/badge/GitHub-dmlc/dgl-black?logo=github)](https://github.com/dmlc/dgl) [![Docs](https://img.shields.io/badge/Homepage-black?logo=HomeAdvisor)](https://dgl.ai) [![Docs](https://img.shields.io/badge/Docs-black?logo=gitbook)](https://docs.dgl.ai)
 
 DGL is an easy-to-use, high performance and scalable Python package for deep learning on graphs. DGL is framework agnostic, meaning if a deep graph model is a component of an end-to-end application, the rest of the logics can be implemented in any major frameworks, such as PyTorch, Apache MXNet or TensorFlow.
 
@@ -110,9 +110,9 @@ Install with:
 $ pip install dgl
 ```
 
-## <a href="https://github.com/PaddlePaddle/PGL">Paddle Graph Learning</a>
+## Paddle Graph Learning
 
-[![GitHub](https://img.shields.io/badge/GitHub-PaddlePaddle/PGL-black?logo=github)](https://github.com/PaddlePaddle/PGL) [![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)](https://pgl.readthedocs.io)
+[![GitHub](https://img.shields.io/badge/GitHub-PaddlePaddle/PGL-black?logo=github)](https://github.com/PaddlePaddle/PGL)  [![Docs](https://img.shields.io/badge/Docs-black?logo=gitbook)](https://pgl.readthedocs.io)
 
 Paddle Graph Learning (PGL) is an efficient and flexible graph learning framework based on PaddlePaddle.
 
@@ -123,9 +123,9 @@ Install with:
 $ pip install pgl
 ```
 
-## <a href="http://cognlp.com/cogkge">CogKGE</a>
+## CogKGE
 
-[![GitHub](https://img.shields.io/badge/GitHub-jinzhuoran/CogKGE-black?logo=github)](https://github.com/jinzhuoran/CogKGE) ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
+[![GitHub](https://img.shields.io/badge/GitHub-jinzhuoran/CogKGE-black?logo=github)](https://github.com/jinzhuoran/CogKGE) [![Docs](https://img.shields.io/badge/Homepage-black?logo=HomeAdvisor)](http://cognlp.com/cogkge) 
 
 A Knowledge Graph Embedding Toolkit and Benckmark for Representing Multi-source and Heterogeneous Knowledge
 
@@ -139,9 +139,9 @@ Install with:
 $ pip install cogkge
 ```
 
-## <a href="https://marius-project.org">Marius</a>
+## Marius
 
-[![GitHub](https://img.shields.io/badge/GitHub-mariusteam/marius-black?logo=github)](https://github.com/marius-team/marius) ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
+[![GitHub](https://img.shields.io/badge/GitHub-mariusteam/marius-black?logo=github)](https://github.com/marius-team/marius) [![Docs](https://img.shields.io/badge/Homepage-black?logo=HomeAdvisor)](https://marius-project.org) 
 
 Marius is a system for large-scale graph learning that supports large-scale link prediction training, and preprocessing and training of datasets.
 
@@ -152,9 +152,9 @@ Marius is a system for large-scale graph learning that supports large-scale link
 
 Marius can't currently be installed directly from PyPI *via* `pip`. See its [installation docs](https://github.com/marius-team/marius#installation-from-source-with-pip) instead.
 
-## <a href="https://graphvite.io">GraphVite</a>
+## GraphVite
 
-[![GitHub](https://img.shields.io/badge/GitHub-DeepGraphLearning/graphvite-black?logo=github)](https://github.com/DeepGraphLearning/graphvite) ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
+[![GitHub](https://img.shields.io/badge/GitHub-DeepGraphLearning/graphvite-black?logo=github)](https://github.com/DeepGraphLearning/graphvite) [![Docs](https://img.shields.io/badge/Homepage-black?logo=HomeAdvisor)](https://graphvite.io) 
 
 GraphVite is a general and high-performance graph embedding system for various applications, designed for CPU-GPU hybrid architecture.
 
@@ -165,9 +165,9 @@ GraphVite is a general and high-performance graph embedding system for various a
 
 GraphVite can't currently be installed directly from PyPI *via* `pip`. See its [installation docs](https://github.com/DeepGraphLearning/graphvite#installation) instead.
 
-## <a href="https://github.com/uma-pi1/kge">LibKGE</a>
+## LibKGE
 
-[![GitHub](https://img.shields.io/badge/GitHub-umapi1/kge-black?logo=github)](https://github.com/uma-pi1/kge) ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
+[![GitHub](https://img.shields.io/badge/GitHub-umapi1/kge-black?logo=github)](https://github.com/uma-pi1/kge)  
 
 LibKGE is a PyTorch-based library for efficient training, evaluation, and hyperparameter optimization of knowledge graph embeddings.
 
@@ -178,9 +178,9 @@ LibKGE is a PyTorch-based library for efficient training, evaluation, and hyperp
 
 LibKGE can't currently be installed directly from PyPI *via* `pip`. See its [installation docs](https://github.com/uma-pi1/kge#quick-start) instead.
 
-## <a href="http://openke.thunlp.org">OpenKE</a>
+## OpenKE
 
-[![GitHub](https://img.shields.io/badge/GitHub-thunlp/OpenKE-black?logo=github)](https://github.com/thunlp/OpenKE) ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
+[![GitHub](https://img.shields.io/badge/GitHub-thunlp/OpenKE-black?logo=github)](https://github.com/thunlp/OpenKE) [![Docs](https://img.shields.io/badge/Homepage-black?logo=HomeAdvisor)](http://openke.thunlp.org) 
 
 OpenKE is an open-source framework for knowledge embedding organized by THUNLP based on the TensorFlow toolkit.
 
@@ -191,9 +191,9 @@ OpenKE is an open-source framework for knowledge embedding organized by THUNLP b
 
 OpenKE can't currently be installed directly from PyPI *via* `pip`. See its [installation docs](https://github.com/thunlp/OpenKE#installation) instead.
 
-## <a href="https://github.com/nju-websoft/muKG">μKG</a>
+## μKG
 
-[![GitHub](https://img.shields.io/badge/GitHub-njuwebsoft/muKG-black?logo=github)](https://github.com/nju-websoft/muKG) ![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)
+[![GitHub](https://img.shields.io/badge/GitHub-njuwebsoft/muKG-black?logo=github)](https://github.com/nju-websoft/muKG)  
 
 
 
