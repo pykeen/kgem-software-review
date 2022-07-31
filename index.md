@@ -24,9 +24,9 @@ You can contribute to this list in one of the following ways:
 [![GitHub](https://img.shields.io/badge/GitHub-{{ entry.github | replace: "-", ""}}-black?logo=github)](https://github.com/{{ entry.github }})
 {% if entry contains "docs" %}[![Docs](https://img.shields.io/badge/Docs-available-green?logo=gitbook)]({{ entry.docs }}){% else %}[![Docs](https://img.shields.io/badge/Docs-missing-red?logo=gitbook)](){% endif %}
 {% if entry contains "ci" %}[![CI](https://img.shields.io/badge/CI-{{ entry.ci.type }}-green?logo={{ entry.ci.type }})]({{ entry.ci.link }}){% else %}[![CI](https://img.shields.io/badge/CI-missing-red)](){% endif %}
-{% if entry contains "pypi" %}![PyPI - License](https://img.shields.io/pypi/l/{{ entry.pypi }})
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/{{ entry.pypi }})
-![PyPI - Software Version](https://img.shields.io/pypi/v/{{ entry.pypi }})
+{% if entry contains "pypi" %}[![PyPI - License](https://img.shields.io/pypi/l/{{ entry.pypi }})](https://pypi.org/project/{{ entry.pypi }})
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/{{ entry.pypi }})](https://pypi.org/project/{{ entry.pypi }})
+[![PyPI - Software Version](https://img.shields.io/pypi/v/{{ entry.pypi }})](https://pypi.org/project/{{ entry.pypi }})
 
 ```shell
 $ # {{ entry.name }} can be installed directly with:
