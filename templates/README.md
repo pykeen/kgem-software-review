@@ -7,7 +7,7 @@ machine learning packages like PyTorch-Geometric.
 ## Contents
 
 {% for entry in kgem_software_data %}
-1. [{{ entry.name }}](#{{ entry.name.lower().replace(" ", "-") }})
+{{ loop.index }}. [{{ entry.name }}](#{{ entry.name.lower().replace(" ", "-") }})
 {% endfor %}
 
 {% for entry in kgem_software_data %}
