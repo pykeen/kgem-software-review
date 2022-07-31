@@ -135,7 +135,7 @@
   arxiv: 2101.08358
   license: Apache-2.0
   framework: Custom
-  installation: https://github.com/marius-team/marius#installation-from-source-with-pip
+  installation: https://github.com/marius-team/marius#build-and-install
   language:
     - python
     - c++

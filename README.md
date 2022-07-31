@@ -150,7 +150,7 @@ Marius is a system for large-scale graph learning that supports large-scale link
 > <br />*OSDI*, 2021
 
 
-Marius can't currently be installed directly from PyPI *via* `pip`. See its [installation docs](https://github.com/marius-team/marius#installation-from-source-with-pip) instead.
+Marius can't currently be installed directly from PyPI *via* `pip`. See its [installation docs](https://github.com/marius-team/marius#build-and-install) instead.
 
 ## GraphVite
 

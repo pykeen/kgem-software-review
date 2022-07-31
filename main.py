@@ -16,6 +16,7 @@ template = environment.get_template("README.md")
 
 def main():
     kgem_software_data = yaml.safe_load(KGEM_SOFTWARE_PATH.read_text())
+    # KGEM_SOFTWARE_PATH.write_text(yaml.safe_dump(kgem_software_data, allow_unicode=True, width=1000))
     PATH.write_text(template.render(kgem_software_data=kgem_software_data) + "\n")
 
 
