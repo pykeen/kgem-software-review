@@ -22,6 +22,7 @@
 - name: AmpliGraph
   github: Accenture/AmpliGraph
   docs: https://docs.ampligraph.org
+  homepage: https://ampligraph.org
   language: python
   framework: TensorFlow
   citation: null
